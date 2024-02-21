@@ -104,16 +104,16 @@ $dbconn = pg_connect("host=aws-0-eu-central-1.pooler.supabase.com port=5432 dbna
 or die('Could not connect: ' . pg_last_error());
 
 // Retrieve values from the form
-$username = $_POST['username'];
-$password = $_POST['password'];
+$Username = $_POST['username'];
+$Password = $_POST['password'];
 
 // Query to check if the user exists
-$sql = "SELECT * FROM users WHERE username = '$username' AND password = '$password'";
+$sql = "SELECT * FROM users WHERE username = '$Username' AND password = '$Password'";
 $result = pg_query($dbconn, $sql);
 
 if (pg_num_rows($result) > 0) {
 	session_start();
-    $_SESSION['username'] = $username;
+    $_SESSION['username'] = $Username;
     header("Location: /home");//index.php
 } else {
     echo "Invalid username or password";
