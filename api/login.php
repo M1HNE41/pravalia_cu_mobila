@@ -103,9 +103,15 @@
 $dbconn = pg_connect("host=aws-0-eu-central-1.pooler.supabase.com port=5432 dbname=postgres user=postgres.piasuguypoushrpezbmu password=~2T-Ee7t#~PLPa6")
 or die('Could not connect: ' . pg_last_error());
 
-// Retrieve values from the form
-$username = $_POST['username'];
-$password = $_POST['password'];
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Check if username and password are set
+    if (isset($_POST['username']) && isset($_POST['password'])) {
+        // Retrieve values from the form
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+    }
+}
+
 
 // Query to check if the user exists
 $sql = "SELECT * FROM users WHERE username = '$username' AND password = '$password'";
