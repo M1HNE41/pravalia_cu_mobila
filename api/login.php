@@ -82,7 +82,7 @@
 <body>
     <div class="container">
         <h2>Conectare</h2>
-        <form method="post">
+        <form action="/login" method="post">
             <div class="input-group">
                 <label for="username">Nume de utilizator:</label>
                 <input type="text" id="username" name="username" required>
@@ -103,27 +103,22 @@
 $dbconn = pg_connect("host=aws-0-eu-central-1.pooler.supabase.com port=5432 dbname=postgres user=postgres.piasuguypoushrpezbmu password=~2T-Ee7t#~PLPa6")
 or die('Could not connect: ' . pg_last_error());
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Check if username and password are set
-    if (isset($_POST['username']) && isset($_POST['password'])) {
-        // Retrieve values from the form
-        $username = $_POST['username'];
-        $password = $_POST['password'];
-    }
-}
+if(isset($_POST['save']))
+{	
+    $newUsername = $_POST['username'];
+    $newPassword = $_POST['password'];
 
-
-// Query to check if the user exists
-$sql = "SELECT * FROM users WHERE username = '$username' AND password = '$password'";
+    $sql = "SELECT * FROM users WHERE username = '$username' AND password = '$password'";
 $result = pg_query($dbconn, $sql);
 
 if (pg_num_rows($result) > 0) {
 	session_start();
-    $_SESSION['username'] = $Username;
+    $_SESSION['username'] = $username;
     header("Location: /home");//index.php
 } else {
     echo "Invalid username or password";
 }
 
 pg_close($dbconn);
+}
 ?>
