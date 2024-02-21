@@ -82,7 +82,7 @@
 <body>
     <div class="container">
         <h2>Conectare</h2>
-        <form action="/login" method="post">
+        <form method="post">
             <div class="input-group">
                 <label for="username">Nume de utilizator:</label>
                 <input type="text" id="username" name="username" required>
@@ -104,11 +104,11 @@ $dbconn = pg_connect("host=aws-0-eu-central-1.pooler.supabase.com port=5432 dbna
 or die('Could not connect: ' . pg_last_error());
 
 // Retrieve values from the form
-$Username = $_POST['username'];
-$Password = $_POST['password'];
+$username = $_POST['username'];
+$password = $_POST['password'];
 
 // Query to check if the user exists
-$sql = "SELECT * FROM users WHERE username = '$Username' AND password = '$Password'";
+$sql = "SELECT * FROM users WHERE username = '$username' AND password = '$password'";
 $result = pg_query($dbconn, $sql);
 
 if (pg_num_rows($result) > 0) {
