@@ -108,13 +108,13 @@ if(isset($_POST['save']))
     $newUsername = $_POST['username'];
     $newPassword = $_POST['password'];
 
-    $sql = "SELECT * FROM users WHERE username = '$username' AND password = '$password'";
+    $sql = "SELECT * FROM users WHERE username = '$newUsername' AND password = '$newPassword'";
 $result = pg_query($dbconn, $sql);
 
 if (pg_num_rows($result) > 0) {
 	session_start();
-    $_SESSION['username'] = $username;
-    header("Location: /home");//index.php
+    $_SESSION['username'] = $newUsername;
+    header("Location: /home");
 } else {
     echo "Invalid username or password";
 }
