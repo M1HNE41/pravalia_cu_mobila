@@ -91,7 +91,7 @@
                 <label for="password">Parola:</label>
                 <input type="password" id="password" name="password" required>
             </div>
-            <button type="submit">Conectare</button>
+            <button type="submit" name="save" value="Submit">Conectare</button>
         </form>
         <p>Nu ai cont? <a href="/signup">Inregistreaza-te</a></p>
     </div>
