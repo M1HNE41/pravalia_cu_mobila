@@ -24,28 +24,28 @@ Suntem un nou magazin de mobila si ne straduim sa aducem pe piata produse accesi
 <!-- Galerie Imagini-->
 <div class="gallery">
   <a href="/mobila-dormitor">
-  <img src="https://piasuguypoushrpezbmu.supabase.co/storage/v1/object/sign/products/living/8.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9kdWN0cy9saXZpbmcvOC5qcGciLCJpYXQiOjE3MDg2MzU2NzksImV4cCI6MzE1NTI3NzA5OTY3OX0.9aRaY96Xc5Iqk8VGOPSjv56l_Z43OkVAUOKt6zxaXqw&t=2024-02-22T21%3A01%3A20.410Z">
+  <img src="https://piasuguypoushrpezbmu.supabase.co/storage/v1/object/sign/products/index/Dormitor.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9kdWN0cy9pbmRleC9Eb3JtaXRvci5qcGciLCJpYXQiOjE3MDg2NDA3NzYsImV4cCI6MzE1NTI3NzEwNDc3Nn0.LQao52pUQp4-CPqNf0qt7SsLgQ1zZo8EgIzO0-uMKxQ&t=2024-02-22T22%3A26%3A17.390Z">
   </a>
   <div class="desc">Dormitor</div>
 </div>
 
 <div class="gallery">
   <a href="/mobila-living">
-  <img src="Poze produse\Living.jpg"></a>
+  <img src="https://piasuguypoushrpezbmu.supabase.co/storage/v1/object/sign/products/index/Living.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9kdWN0cy9pbmRleC9MaXZpbmcuanBnIiwiaWF0IjoxNzA4NjQwODAzLCJleHAiOjMxNTUyNzcxMDQ4MDN9.MoNYrDS6s84nJ6J-CLK8Lla8wCFjTRvt6W1fCl2qoDA&t=2024-02-22T22%3A26%3A44.500Z"></a>
   <div class="desc">Living</div>
 
 </div>
 
 <div class="gallery">
   <a href="/baie">
-  <img src="Poze produse\Bathroom.jpg"></a>
+  <img src="https://piasuguypoushrpezbmu.supabase.co/storage/v1/object/sign/products/index/Bathroom.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9kdWN0cy9pbmRleC9CYXRocm9vbS5qcGciLCJpYXQiOjE3MDg2NDA4MjQsImV4cCI6MzE1NTI3NzEwNDgyNH0.ZmMUes9N0uyNGpCGpt6KfSYF6fwYYUXMt9g2xjPfUmU&t=2024-02-22T22%3A27%3A05.407Z"></a>
   <div class="desc">Baie</div>
   
 </div>
 
 <div class="gallery">
   <a href="/accesorii-bucatarie">
-  <img src="Poze produse\Kitchen.jpg">
+  <img src="https://piasuguypoushrpezbmu.supabase.co/storage/v1/object/sign/products/index/Kitchen.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9kdWN0cy9pbmRleC9LaXRjaGVuLmpwZyIsImlhdCI6MTcwODY0MDg0MiwiZXhwIjozMTU1Mjc3MTA0ODQyfQ.mxk4Cy5k2GHA7J6rP46Ludm0bbo4qBWKyOQlN-J4rbI&t=2024-02-22T22%3A27%3A22.974Z">
   </a> 
  <div class="desc">Bucatarie</div>
   
@@ -53,7 +53,7 @@ Suntem un nou magazin de mobila si ne straduim sa aducem pe piata produse accesi
 
 <div class="gallery">
   <a href="/mobila-hol">
-  <img src="Poze produse\Hol furniture.jpg">
+  <img src="https://piasuguypoushrpezbmu.supabase.co/storage/v1/object/sign/products/index/Hol%20furniture.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9kdWN0cy9pbmRleC9Ib2wgZnVybml0dXJlLmpwZyIsImlhdCI6MTcwODY0MDg2MiwiZXhwIjozMTU1Mjc3MTA0ODYyfQ.If_wNAmcQtBbtZ0rS09Y37SwSHEQcpLrf3ue-7XzOy8&t=2024-02-22T22%3A27%3A43.754Z">
   </a>
   <div class="desc">Hol</div>
   
@@ -61,7 +61,7 @@ Suntem un nou magazin de mobila si ne straduim sa aducem pe piata produse accesi
 
 <div class="gallery">
   <a href="/birouri-de-acasa">
-  <img src="Poze produse\Birou.jpg">
+  <img src="https://piasuguypoushrpezbmu.supabase.co/storage/v1/object/sign/products/index/Birou.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9kdWN0cy9pbmRleC9CaXJvdS5qcGciLCJpYXQiOjE3MDg2NDA4NzcsImV4cCI6MzE1NTI3NzEwNDg3N30.RFf0q2CuEP4PTe6CEs_2U3Kce4MP1cjR--O1EEF3Zho&t=2024-02-22T22%3A27%3A58.771Z">
   </a>
   <div class="desc">Birouri</div>
 </div>
