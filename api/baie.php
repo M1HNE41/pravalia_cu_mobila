@@ -58,7 +58,7 @@ Magazinul nostru va oferă o gamă extinsă de mobilă pentru dormitor, paturi c
 </p>
 
 <?php
-echo '<div class="flex flex-wrap justify-center ">'; // start a new row
+echo '<div class="flex flex-wrap justify-between mx-auto space-x-4" style="max-width: 1200px;">'; // start a new row
 for ($i = 0; $i < 2; $i++) { // generate 2 rows
     for ($j = 0; $j < 3; $j++) { // generate 3 cards in each row
         generateCard("https://jysk.ro/sites/jysk.ro/files/category_top_banner/S367090-JEGIND-JONSTRUP-3670143-HALMSTAD.jpg", "Cuvertura", "920", "cuvertura moale", "100x100cm", "textil"); // replace with actual data
