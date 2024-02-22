@@ -1,3 +1,12 @@
+<?php
+    if (isset($_SESSION['username'])) {
+        echo '<a href="#">Welcome, ' . $_SESSION['username'] . '</a>';
+        echo '<a class="fa fa-sign-out" href="/logout">Deconectare</a>';
+    } else {
+        echo '<a class="fa fa-sign-in" href="/login">Conectare</a>';
+        echo '<a class="fa fa-sign-out" href="/signup">Inregistrare</a>';
+    }
+  ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -37,15 +46,7 @@
   <a class="fa fa-wrench"> Servicii</a>
   <a class="fa fa-copyright"> Scurt istoric</a>
 
-  <?php
-    if (isset($_SESSION['username'])) {
-        echo '<a href="#">Welcome, ' . $_SESSION['username'] . '</a>';
-        echo '<a class="fa fa-sign-out" href="/logout">Deconectare</a>';
-    } else {
-        echo '<a class="fa fa-sign-in" href="/login">Conectare</a>';
-        echo '<a class="fa fa-sign-out" href="/signup">Inregistrare</a>';
-    }
-  ?>
+  
 </div>
 <?php
    function generateCard($imgUrl, $title, $price, $description, $dimensions, $material) {
