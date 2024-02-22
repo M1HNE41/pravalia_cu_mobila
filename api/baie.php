@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <body>
-<?php include 'struct.php'; ?>
+<?php include 'struct.php';
+$dbconn = pg_connect("host=aws-0-eu-central-1.pooler.supabase.com port=5432 dbname=postgres user=postgres.piasuguypoushrpezbmu password=~2T-Ee7t#~PLPa6")
+or die('Could not connect: ' . pg_last_error());
+?>
 <div style="clear:both;"> </div>
 <center>
 	<h1>
@@ -59,7 +62,8 @@ Magazinul nostru va oferă o gamă extinsă de mobilă pentru dormitor, paturi c
 
 <?php
 echo '<div class="flex flex-wrap justify-between mx-auto space-x-4" style="max-width: 1200px;">'; // start a new row
-$result = pg_query($dbconn, "SELECT * FROM products WHERE id = '1'"); // Replace 'products' with your actual table name
+$sql = "SELECT * FROM products WHERE id = '1'";
+$result = pg_query($dbconn, $sql);
 $product = pg_fetch_assoc($result);
 for ($i = 0; $i < 2; $i++) { // generate 2 rows
     for ($j = 0; $j < 3; $j++) { // generate 3 cards in each row
