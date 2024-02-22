@@ -1,13 +1,10 @@
-<?php
-session_start();
-?>
+<?php include 'struct.php'; ?>
 <!DOCTYPE html>
 <html>
 
 
 
 <body>
-<?php include 'struct.php'; ?>
  <h1>
    <center>
    Bine ati venit!
