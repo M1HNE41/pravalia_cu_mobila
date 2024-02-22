@@ -252,7 +252,7 @@ object-fit: contain;
   
 </div>
 <?php
-   function generateCard($imgUrl, $title, $price, $description, $dimensions, $material) {
+   function generateCard($imgUrl, $title, $price, $description, $dimensions) {
     echo "
     <div class='card card-item lg:w display: inline-block'>
         <div class='bg-white shadow-xl rounded-lg overflow-hidden'>
@@ -266,9 +266,6 @@ object-fit: contain;
             <div class='flex p-4 border-t border-gray-300 text-gray-700'>
                 <div class='flex-1 inline-flex items-center'>
                     <p><span class='text-gray-900 font-bold'>$dimensions</span> Dimensions</p>
-                </div>
-                <div class='flex-1 inline-flex items-center'>
-                    <p><span class='text-gray-900 font-bold'>$material</span> Material</p>
                 </div>
             </div>
         </div>
