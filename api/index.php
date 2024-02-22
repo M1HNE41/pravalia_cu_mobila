@@ -24,7 +24,7 @@ Suntem un nou magazin de mobila si ne straduim sa aducem pe piata produse accesi
 <!-- Galerie Imagini-->
 <div class="gallery">
   <a href="/mobila-dormitor">
-  <img src="Poze produse\Dormitor.jpg">
+  <img src="https://piasuguypoushrpezbmu.supabase.co/storage/v1/object/sign/products/living/8.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9kdWN0cy9saXZpbmcvOC5qcGciLCJpYXQiOjE3MDg2MzU2NzksImV4cCI6MzE1NTI3NzA5OTY3OX0.9aRaY96Xc5Iqk8VGOPSjv56l_Z43OkVAUOKt6zxaXqw&t=2024-02-22T21%3A01%3A20.410Z">
   </a>
   <div class="desc">Dormitor</div>
 </div>
