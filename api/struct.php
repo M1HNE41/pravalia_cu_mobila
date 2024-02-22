@@ -37,6 +37,7 @@
   <a class="fa fa-wrench"> Servicii</a>
   <a class="fa fa-copyright"> Scurt istoric</a>
     <?php
+    session_start();
     if (isset($_SESSION['username'])) {
         echo '<a href="#">Welcome, ' . $_SESSION['username'] . '</a>';
         echo '<a class="fa fa-sign-out" href="/logout">Deconectare</a>';
