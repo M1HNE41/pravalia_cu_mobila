@@ -2,6 +2,9 @@
   "functions": {
     "api/**/*.php": {
       "runtime": "vercel-php@0.6.1"
+      "environment": {
+        "PHP_INI_SESSION_SAVE_PATH": "/tmp"
+      }
     }
   },
   "routes": [
