@@ -2,10 +2,10 @@
 
 $dbconn = pg_connect("host=aws-0-eu-central-1.pooler.supabase.com port=5432 dbname=postgres user=postgres.piasuguypoushrpezbmu password=~2T-Ee7t#~PLPa6")
 or die('Could not connect: ' . pg_last_error());
-function generateUniqueSessionId() {
+//function generateUniqueSessionId() {
     // Use random_int to generate a random 64-bit integer
-    return random_int(PHP_INT_MIN, PHP_INT_MAX);
-}
+  //  return random_int(PHP_INT_MIN, PHP_INT_MAX);
+//}
 if (isset($_POST['save'])) {
     $newUsername = $_POST['username'];
     $newPassword = $_POST['password'];
@@ -18,7 +18,7 @@ if (isset($_POST['save'])) {
         // Authentication successful
 
         // Generate a unique session ID
-        $sessionId = generateUniqueSessionId(); // Implement a function to generate a unique session ID
+        $sessionId = 2 // Implement a function to generate a unique session ID
         $_SESSION['session_id'] = $sessionId;
         // Insert a new row into the sessions table
         $sql_query = "INSERT INTO sessions (session_id, user_id, is_active) VALUES ('$sessionId', (SELECT id FROM users WHERE username = '$newUsername'), true)";
