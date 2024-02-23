@@ -18,7 +18,7 @@ if (isset($_POST['save'])) {
         // Authentication successful
 
         // Generate a unique session ID
-        $sessionId = 2 // Implement a function to generate a unique session ID
+        $sessionId = '2' // Implement a function to generate a unique session ID
         $_SESSION['session_id'] = $sessionId;
         // Insert a new row into the sessions table
         $sql_query = "INSERT INTO sessions (session_id, user_id, is_active) VALUES ('$sessionId', (SELECT id FROM users WHERE username = '$newUsername'), true)";
