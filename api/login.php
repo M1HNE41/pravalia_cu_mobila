@@ -19,7 +19,7 @@ if (isset($_POST['save'])) {
 
         // Generate a unique session ID
         $sessionId = generateUniqueSessionId(); // Implement a function to generate a unique session ID
-
+        $_SESSION['session_id'] = $sessionId;
         // Insert a new row into the sessions table
         $sql_query = "INSERT INTO sessions (session_id, user_id, is_active) VALUES ('$sessionId', (SELECT id FROM users WHERE username = '$newUsername'), true)";
         $result_session = pg_query($dbconn, $sql_query);
