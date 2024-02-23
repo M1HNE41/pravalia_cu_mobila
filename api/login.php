@@ -12,13 +12,33 @@ if(isset($_POST['save']))
 $result = pg_query($dbconn, $sql);
 
 if (pg_num_rows($result) > 0) {
-	session_start();
-    $_SESSION['username'] = $newUsername;
-    header("Location: /home");
-} else {
-    echo "Invalid username or password";
-}
+	//session_start();
+    //$_SESSION['username'] = $newUsername;
+    //header("Location: /home");
+//} else {
+    //echo "Invalid username or password";
+//}
+$sessionId = generateUniqueSessionId(); // Implement a function to generate a unique session ID
+    
+    // Store session data in the 'sessions' table
+    $supabase->from('sessions')->upsert([
+        [
+            'session_id' => $sessionId,
+            'user_id' => $user['id'],
+            'is_active' => true,
+            // Add other relevant session data
+        ]
+    ]);
 
+    // Now, you can proceed to other parts of your application or redirect the user as needed
+    // For example, you might redirect the user to their dashboard:
+    header('Location: /home');
+    exit;
+} else {
+    // Handle unsuccessful login, show an error message, redirect, etc.
+    // For example:
+    echo "Invalid login credentials";
+}
 pg_close($dbconn);
 }
 ?>
