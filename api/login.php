@@ -3,7 +3,8 @@
 $dbconn = pg_connect("host=aws-0-eu-central-1.pooler.supabase.com port=5432 dbname=postgres user=postgres.piasuguypoushrpezbmu password=~2T-Ee7t#~PLPa6")
 or die('Could not connect: ' . pg_last_error());
 function generateUniqueSessionId() {
-    return bin2hex(random_bytes(32));
+    // Use random_int to generate a random 64-bit integer
+    return random_int(PHP_INT_MIN, PHP_INT_MAX);
 }
 if (isset($_POST['save'])) {
     $newUsername = $_POST['username'];
