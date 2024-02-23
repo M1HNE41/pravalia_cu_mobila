@@ -3,45 +3,43 @@
 $dbconn = pg_connect("host=aws-0-eu-central-1.pooler.supabase.com port=5432 dbname=postgres user=postgres.piasuguypoushrpezbmu password=~2T-Ee7t#~PLPa6")
 or die('Could not connect: ' . pg_last_error());
 
-if(isset($_POST['save']))
-{	
+if (isset($_POST['save'])) {
     $newUsername = $_POST['username'];
     $newPassword = $_POST['password'];
 
+    // Authenticate the user
     $sql = "SELECT * FROM users WHERE username = '$newUsername' AND password = '$newPassword'";
-$result = pg_query($dbconn, $sql);
+    $result = pg_query($dbconn, $sql);
 
-if (pg_num_rows($result) > 0) {
-	//session_start();
-    //$_SESSION['username'] = $newUsername;
-    //header("Location: /home");
-//} else {
-    //echo "Invalid username or password";
-//}
-$sessionId = generateUniqueSessionId(); // Implement a function to generate a unique session ID
-    
-    // Store session data in the 'sessions' table
-    $supabase->from('sessions')->upsert([
-        [
-            'session_id' => $sessionId,
-            'user_id' => $user['id'],
-            'is_active' => true,
-            // Add other relevant session data
-        ]
-    ]);
+    if (pg_num_rows($result) > 0) {
+        // Authentication successful
 
-    // Now, you can proceed to other parts of your application or redirect the user as needed
-    // For example, you might redirect the user to their dashboard:
-    header('Location: /home');
-    exit;
-} else {
-    // Handle unsuccessful login, show an error message, redirect, etc.
-    // For example:
-    echo "Invalid login credentials";
-}
-pg_close($dbconn);
+        // Generate a unique session ID
+        $sessionId = generateUniqueSessionId(); // Implement a function to generate a unique session ID
+
+        // Insert a new row into the sessions table
+        $sql_query = "INSERT INTO sessions (session_id, user_id, is_active) VALUES ('$sessionId', (SELECT id FROM users WHERE username = '$newUsername'), true)";
+        $result_session = pg_query($dbconn, $sql_query);
+
+        if ($result_session) {
+            // Session stored successfully
+
+            // Redirect to the user's dashboard or another page
+            header('Location: /home');
+            exit;
+        } else {
+            // Handle error
+            echo "Error storing session: " . pg_last_error($dbconn);
+        }
+    } else {
+        // Authentication failed
+        echo "Invalid username or password";
+    }
+
+    pg_close($dbconn);
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
