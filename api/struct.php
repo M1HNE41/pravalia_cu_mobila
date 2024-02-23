@@ -241,14 +241,22 @@ object-fit: contain;
   <a class="fa fa-wrench"> Servicii</a>
   <a class="fa fa-copyright"> Scurt istoric</a>
     <?php
-    if (isset($_SESSION['username'])) {
-        echo '<a href="#">Welcome, ' . $_SESSION['username'] . '</a>';
-        echo '<a class="fa fa-sign-out" href="/logout">Deconectare</a>';
-    } else {
-        echo '<a class="fa fa-sign-in" href="/login">Conectare</a>';
-        echo '<a class="fa fa-sign-out" href="/signup">Inregistrare</a>';
-    }
-  ?>
+$dbconn = pg_connect("host=aws-0-eu-central-1.pooler.supabase.com port=5432 dbname=postgres user=postgres.piasuguypoushrpezbmu password=~2T-Ee7t#~PLPa6")
+or die('Could not connect: ' . pg_last_error());
+    if (isset($_SESSION['session_id'])) {
+    $sessionId = $_SESSION['session_id'];
+
+    // Query the sessions table to check if the session is active
+    $sql_query = "SELECT user_id FROM sessions WHERE session_id = '$sessionId' AND is_active = true";
+    $result = pg_query($dbconn, $sql_query);
+    
+    // ... rest of your code ...
+} else {
+    // Session ID not set, display login and signup buttons
+    echo '<a class="fa fa-sign-in" href="/login">Login</a>';
+    echo '<a class="fa fa-sign-out" href="/signup">Signup</a>';
+}
+?>
   
 </div>
 <?php
