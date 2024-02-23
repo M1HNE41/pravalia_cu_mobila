@@ -1,4 +1,7 @@
-<?php include 'struct.php'; ?>
+<?php
+session_start();
+include 'struct.php';
+?>
 <!DOCTYPE html>
 <html>
 
