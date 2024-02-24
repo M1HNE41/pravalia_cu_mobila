@@ -68,7 +68,7 @@ $product = pg_fetch_assoc($result);
 for ($i = 0; $i < 2; $i++) { // generate 2 rows
     for ($j = 0; $j < 3; $j++) { // generate 3 cards in each row
 	$productNumber++;
-	$sql = "SELECT * FROM products WHERE id = $productNumber";			
+	$sql = "SELECT * FROM products WHERE id = '$productNumber'";			
         generateCard($product['image_url'], $product['name'], $product['price'], $product['description'], $product['dimensions']);
 	
     }
