@@ -20,6 +20,13 @@ function get_client_ip() {
         $ipaddress = 'UNKNOWN';
     return $ipaddress;
 }
+function ipToConcatenatedString($ip) {
+    // Remove dots from the IP address
+    $ipWithoutDots = str_replace('.', '', $ip);
+
+    return $ipWithoutDots;
+}
+
 if (isset($_POST['save'])) {
     $newUsername = $_POST['username'];
     $newPassword = $_POST['password'];
@@ -31,7 +38,7 @@ if (isset($_POST['save'])) {
     if (pg_num_rows($result) > 0) {
         // Authentication successful
 
-        $sessionId = get_client_ip();
+        $sessionId = ipToConcatenatedString(get_client_ip());
         // Retrieve user ID from the PostgreSQL table
         $getUserSql = "SELECT id FROM users WHERE username = '$newUsername'";
         $userResult = pg_query($dbconn, $getUserSql);
