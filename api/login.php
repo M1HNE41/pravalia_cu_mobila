@@ -2,10 +2,6 @@
 
 $dbconn = pg_connect("host=aws-0-eu-central-1.pooler.supabase.com port=5432 dbname=postgres user=postgres.piasuguypoushrpezbmu password=~2T-Ee7t#~PLPa6")
 or die('Could not connect: ' . pg_last_error());
-function generateUniqueSessionId() {
-    // Use random_int to generate a random 64-bit integer
-    return random_int(PHP_INT_MIN, PHP_INT_MAX);
-}
 if (isset($_POST['save'])) {
     $newUsername = $_POST['username'];
     $newPassword = $_POST['password'];
@@ -17,29 +13,40 @@ if (isset($_POST['save'])) {
     if (pg_num_rows($result) > 0) {
         // Authentication successful
 
-        // Generate a unique session ID
-        $sessionId = generateUniqueSessionId(); // Implement a function to generate a unique session ID
-        $_SESSION['session_id'] = $sessionId;
-        // Insert a new row into the sessions table
-        $sql_query = "INSERT INTO sessions (session_id, user_id, is_active) VALUES ('$sessionId', (SELECT id FROM users WHERE username = '$newUsername'), true)";
-        $result_session = pg_query($dbconn, $sql_query);
+        $sessionId = 1;
+        // Retrieve user ID from the PostgreSQL table
+        $getUserSql = "SELECT id FROM users WHERE username = '$newUsername'";
+        $userResult = pg_query($dbconn, $getUserSql);
+        $userData = pg_fetch_assoc($userResult);
+        $userId = $userData['id'];
 
-        if ($result_session) {
-            // Session stored successfully
+        // Update the PostgreSQL row in the sessions table
+        $updateSql = "UPDATE sessions SET is_active = true, user_id = '$userId' WHERE session_id = '$sessionId'";
+        $updateResult = pg_query($dbconn, $updateSql);
+
+        if ($updateResult) {
+            // Row updated successfully
 
             // Redirect to the user's dashboard or another page
             header('Location: /home');
             exit;
         } else {
             // Handle error
-            echo "Error storing session: " . pg_last_error($dbconn);
+            echo "Error updating PostgreSQL row: " . pg_last_error($dbconn);
         }
     } else {
+        $updateFailedSql = "UPDATE sessions SET is_active = false, user_id = null WHERE session_id = '$sessionId'";
         // Authentication failed
-        echo "Invalid username or password";
+        $updateFailedResult = pg_query($dbconn, $updateFailedSql);
     }
+    if ($updateFailedResult) {
+            // Row updated successfully
 
-    pg_close($dbconn);
+            echo "Invalid username or password";
+        } else {
+            // Handle error
+            echo "Error updating PostgreSQL row: " . pg_last_error($dbconn);
+        }
 }
 ?>
 
