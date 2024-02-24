@@ -2,10 +2,26 @@
 
 $dbconn = pg_connect("host=aws-0-eu-central-1.pooler.supabase.com port=5432 dbname=postgres user=postgres.piasuguypoushrpezbmu password=~2T-Ee7t#~PLPa6")
 or die('Could not connect: ' . pg_last_error());
-function generateUniqueSessionId()
-{
-    // Use the user's IP address and the day of the month as the session ID
-    return hash('sha256', $_SERVER['REMOTE_ADDR'] . date('j'));
+function get_ip() {
+    $ip = '';
+    if (isset($_SERVER['HTTP_CLIENT_IP'])){
+        $ip = $_SERVER['HTTP_CLIENT_IP'];
+    }else if(isset($_SERVER['HTTP_X_FORWARDED_FOR'])){
+        $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+    }else if(isset($_SERVER['HTTP_X_FORWARDED'])){
+        $ip = $_SERVER['HTTP_X_FORWARDED'];
+    }else if(isset($_SERVER['HTTP_FORWARDED_FOR'])){
+        $ip = $_SERVER['HTTP_FORWARDED_FOR'];
+    }else if(isset($_SERVER['HTTP_FORWARDED'])){
+        $ip = $_SERVER['HTTP_FORWARDED'];
+    }else if(isset($_SERVER['REMOTE_ADDR'])){
+        $ip = $_SERVER['REMOTE_ADDR'];
+    }
+    if( empty($ip) || $ip == '0.0.0.0' || substr( $ip, 0, 2 ) == '::' ){
+        $ip = file_get_contents('https://api.ipify.org/');
+        $ip = ($ip===false?$ip:'');
+    }
+    return $ip;
 }
 if (isset($_POST['save'])) {
     $newUsername = $_POST['username'];
@@ -18,7 +34,7 @@ if (isset($_POST['save'])) {
     if (pg_num_rows($result) > 0) {
         // Authentication successful
 
-        $sessionId = generateUniqueSessionId();
+        $sessionId = get_ip();
         // Retrieve user ID from the PostgreSQL table
         $getUserSql = "SELECT id FROM users WHERE username = '$newUsername'";
         $userResult = pg_query($dbconn, $getUserSql);
