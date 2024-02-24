@@ -293,8 +293,7 @@ function ipToConcatenatedString($ip) {
 
         if ($delete_result) {
             // Deletion successful
-            header('Location: /home');
-            exit;
+            window.location.reload();
         } else {
             // Deletion failed
             echo "Error deleting record: " . pg_last_error($dbconn);
