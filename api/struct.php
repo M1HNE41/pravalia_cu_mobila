@@ -260,7 +260,9 @@ or die('Could not connect: ' . pg_last_error());
             $username = pg_fetch_assoc($result_user)['username'];
             echo '<a href="#">Welcome, ' . $username . '</a>';
             echo '<a class="fa fa-sign-out" href="/logout">Logout</a>';
-        } else {
+        }
+    }
+    }else {
     // Session ID not set, display login and signup buttons
     echo "Session ID: " . session_id();
     echo '<a class="fa fa-sign-in" href="/login">Login</a>';
