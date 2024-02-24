@@ -21,7 +21,7 @@ if (isset($_POST['save'])) {
         $userId = $userData['id'];
 
         // Update the PostgreSQL row in the sessions table
-        $updateSql = "UPDATE sessions SET is_active = true, user_id = '$userId' WHERE session_id = '$sessionId'";
+        $updateSql = "INSERT INTO sessions (session_id, user_id, is_active) VALUES ('$sessionId', '$userId', true)";
         $updateResult = pg_query($dbconn, $updateSql);
 
         if ($updateResult) {
