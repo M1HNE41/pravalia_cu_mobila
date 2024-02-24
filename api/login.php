@@ -1,11 +1,11 @@
 <?php
 
 $dbconn = pg_connect("host=aws-0-eu-central-1.pooler.supabase.com port=5432 dbname=postgres user=postgres.piasuguypoushrpezbmu password=~2T-Ee7t#~PLPa6")
-or die('Could not connect: ' . pg_last_error());
-function generateUniqueSessionId() {
-    // Use random_int to generate a random 64-bit integer
-    return random_int(PHP_INT_MIN, PHP_INT_MAX);
-}
+    or die('Could not connect: ' . pg_last_error());
+
+// Fixed session ID
+$fixedSessionId = 1;
+
 if (isset($_POST['save'])) {
     $newUsername = $_POST['username'];
     $newPassword = $_POST['password'];
@@ -17,22 +17,40 @@ if (isset($_POST['save'])) {
     if (pg_num_rows($result) > 0) {
         // Authentication successful
 
-        // Generate a unique session ID
-        $sessionId = generateUniqueSessionId(); // Implement a function to generate a unique session ID
-        $_SESSION['session_id'] = $sessionId;
-        // Insert a new row into the sessions table
-        $sql_query = "INSERT INTO sessions (session_id, user_id, is_active) VALUES ('$sessionId', (SELECT id FROM users WHERE username = '$newUsername'), true)";
-        $result_session = pg_query($dbconn, $sql_query);
+        // Check if a session already exists for this user
+        $existingSessionQuery = "SELECT * FROM sessions WHERE user_id = (SELECT id FROM users WHERE username = '$newUsername')";
+        $existingSessionResult = pg_query($dbconn, $existingSessionQuery);
 
-        if ($result_session) {
-            // Session stored successfully
+        if (pg_num_rows($existingSessionResult) > 0) {
+            // Update the existing session
+            $updateSessionQuery = "UPDATE sessions SET session_id = '$fixedSessionId', is_active = true WHERE user_id = (SELECT id FROM users WHERE username = '$newUsername')";
+            $updateResult = pg_query($dbconn, $updateSessionQuery);
 
-            // Redirect to the user's dashboard or another page
-            header('Location: /home');
-            exit;
+            if ($updateResult) {
+                // Session updated successfully
+
+                // Redirect to the user's dashboard or another page
+                header('Location: /home');
+                exit;
+            } else {
+                // Handle error
+                echo "Error updating session: " . pg_last_error($dbconn);
+            }
         } else {
-            // Handle error
-            echo "Error storing session: " . pg_last_error($dbconn);
+            // Insert a new row into the sessions table
+            $insertSessionQuery = "INSERT INTO sessions (session_id, user_id, is_active) VALUES ('$fixedSessionId', (SELECT id FROM users WHERE username = '$newUsername'), true)";
+            $insertResult = pg_query($dbconn, $insertSessionQuery);
+
+            if ($insertResult) {
+                // Session stored successfully
+
+                // Redirect to the user's dashboard or another page
+                header('Location: /home');
+                exit;
+            } else {
+                // Handle error
+                echo "Error storing session: " . pg_last_error($dbconn);
+            }
         }
     } else {
         // Authentication failed
@@ -42,6 +60,7 @@ if (isset($_POST['save'])) {
     pg_close($dbconn);
 }
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
