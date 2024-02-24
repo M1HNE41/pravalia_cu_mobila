@@ -25,7 +25,7 @@ if (isset($_POST['save'])) {
         $insertSql = "INSERT INTO sessions (session_id, user_id, is_active) VALUES ('$sessionId', '$userId', true)";
         $insertResult = pg_query($dbconn, $insertSql)
 
-        if ($updateResult) {
+        if ($insertResult) {
             // Row updated successfully
 
             // Redirect to the user's dashboard or another page
