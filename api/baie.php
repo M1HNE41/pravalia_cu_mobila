@@ -62,7 +62,7 @@ Magazinul nostru va oferă o gamă extinsă de mobilă pentru dormitor, paturi c
 
 <?php
 echo '<div class="flex flex-wrap justify-between mx-auto space-x-4" style="max-width: 1200px;">'; // start a new row
-$sql = "SELECT * FROM products WHERE id = '1'";
+$sql = "SELECT * FROM products WHERE id = '2'";
 $result = pg_query($dbconn, $sql);
 $product = pg_fetch_assoc($result);
 for ($i = 0; $i < 2; $i++) { // generate 2 rows
