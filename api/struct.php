@@ -262,6 +262,12 @@ or die('Could not connect: ' . pg_last_error());
             echo '<a class="fa fa-sign-out" href="/logout">Logout</a>';
         }
     }
+        else {
+    // Session ID not set, display login and signup buttons
+    echo "Session ID: " . session_id();
+    echo '<a class="fa fa-sign-in" href="/login">Login</a>';
+    echo '<a class="fa fa-sign-out" href="/signup">Signup</a>';
+}
     }else {
     // Session ID not set, display login and signup buttons
     echo "Session ID: " . session_id();
