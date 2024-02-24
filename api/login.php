@@ -21,16 +21,16 @@ if (isset($_POST['save'])) {
         $userData = pg_fetch_assoc($userResult);
         $userId = $userData['id'];
 
-        $insertSql = "INSERT INTO sessions (session_id, user_id, is_active) VALUES ('$userId', '$userId', true)";
+       // $insertSql = "INSERT INTO sessions (session_id, user_id, is_active) VALUES ('$userId', '$userId', true)";
 
-    $insertResult = pg_query($dbconn, $insertSql);
+   // $insertResult = pg_query($dbconn, $insertSql);
 
-        if ($insertResult) {
+       // if ($insertResult) {
             // Row updated successfully
 
             // Redirect to the user's dashboard or another page
-            header('Location: /home');
-            exit;
+           // header('Location: /home');
+          //  exit;
         } else {
             // Handle error
             echo "Error updating PostgreSQL row: " . pg_last_error($dbconn);
