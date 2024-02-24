@@ -243,7 +243,7 @@ $dbconn = pg_connect("host=aws-0-eu-central-1.pooler.supabase.com port=5432 dbna
 or die('Could not connect: ' . pg_last_error());
     // Query the sessions table to check if the session is active
     $sessionId = 1;
-    $sql_query = "SELECT user_id FROM sessions WHERE session_id = '$sessionId' AND is_active = true AND session_count = 1";
+    $sql_query = "SELECT user_id FROM sessions WHERE session_id = '$sessionId' AND is_active = true";
     $result = pg_query($dbconn, $sql_query);
     if ($result) {
     // Check if any rows were returned
