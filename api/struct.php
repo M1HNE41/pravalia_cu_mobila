@@ -241,8 +241,32 @@ object-fit: contain;
     <?php
 $dbconn = pg_connect("host=aws-0-eu-central-1.pooler.supabase.com port=5432 dbname=postgres user=postgres.piasuguypoushrpezbmu password=~2T-Ee7t#~PLPa6")
 or die('Could not connect: ' . pg_last_error());
+function get_client_ip() {
+    $ipaddress = '';
+    if (isset($_SERVER['HTTP_CLIENT_IP']))
+        $ipaddress = $_SERVER['HTTP_CLIENT_IP'];
+    else if(isset($_SERVER['HTTP_X_FORWARDED_FOR']))
+        $ipaddress = $_SERVER['HTTP_X_FORWARDED_FOR'];
+    else if(isset($_SERVER['HTTP_X_FORWARDED']))
+        $ipaddress = $_SERVER['HTTP_X_FORWARDED'];
+    else if(isset($_SERVER['HTTP_FORWARDED_FOR']))
+        $ipaddress = $_SERVER['HTTP_FORWARDED_FOR'];
+    else if(isset($_SERVER['HTTP_FORWARDED']))
+        $ipaddress = $_SERVER['HTTP_FORWARDED'];
+    else if(isset($_SERVER['REMOTE_ADDR']))
+        $ipaddress = $_SERVER['REMOTE_ADDR'];
+    else
+        $ipaddress = 'UNKNOWN';
+    return $ipaddress;
+}
+function ipToConcatenatedString($ip) {
+    // Remove dots from the IP address
+    $ipWithoutDots = str_replace('.', '', $ip);
+
+    return $ipWithoutDots;
+}
     // Query the sessions table to check if the session is active
-    $sessionId = 1;
+    $sessionId = ipToConcatenatedString(get_client_ip());
     $sql_query = "SELECT user_id FROM sessions WHERE session_id = '$sessionId' AND is_active = true";
     $result = pg_query($dbconn, $sql_query);
     if ($result) {
