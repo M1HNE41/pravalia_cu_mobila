@@ -283,18 +283,31 @@ function ipToConcatenatedString($ip) {
         if ($result_user && pg_num_rows($result_user) > 0) {
             $username = pg_fetch_assoc($result_user)['username'];
             echo '<a href="#">Welcome, ' . $username . '</a>';
-            echo '<a class="fa fa-sign-out" href="/logout">Logout</a>';
+            echo '<form method="post">
+    <!-- ... (your existing HTML code) -->
+    <button type="submit" name="logout">Logout</button>
+</form>';
+            if (isset($_POST['logout'])) {
+                $delete_query = "DELETE FROM sessions WHERE session_id = $sessionId";
+        $delete_result = pg_query($dbconn, $delete_query);
+
+        if ($delete_result) {
+            // Deletion successful
+            header("Location: /home"); // Redirect to the logout page or any other page as needed
+        } else {
+            // Deletion failed
+            echo "Error deleting record: " . pg_last_error($dbconn);
+        }
+    }
         }
     }
         else {
     // Session ID not set, display login and signup buttons
-    echo "Session ID: " . session_id();
     echo '<a class="fa fa-sign-in" href="/login">Login</a>';
     echo '<a class="fa fa-sign-out" href="/signup">Signup</a>';
 }
     }else {
     // Session ID not set, display login and signup buttons
-    echo "Session ID: " . session_id();
     echo '<a class="fa fa-sign-in" href="/login">Login</a>';
     echo '<a class="fa fa-sign-out" href="/signup">Signup</a>';
 }
