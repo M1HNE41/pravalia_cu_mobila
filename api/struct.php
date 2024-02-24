@@ -240,35 +240,32 @@ object-fit: contain;
   <a class="fa fa-copyright"> Scurt istoric</a>
     <?php
 $dbconn = pg_connect("host=aws-0-eu-central-1.pooler.supabase.com port=5432 dbname=postgres user=postgres.piasuguypoushrpezbmu password=~2T-Ee7t#~PLPa6")
-    or die('Could not connect: ' . pg_last_error());
-
-if (isset($_SESSION['session_id'])) {
-    $sessionId = $_SESSION['session_id'];
-
+or die('Could not connect: ' . pg_last_error());
     // Query the sessions table to check if the session is active
-    $sql_query = "SELECT users.username FROM sessions INNER JOIN users ON sessions.user_id = users.id WHERE session_id = '$sessionId' AND is_active = true";
+    $sessionId = 1;
+    $sql_query = "SELECT user_id FROM sessions WHERE session_id = '$sessionId' AND is_active = true AND session_count = 1";
     $result = pg_query($dbconn, $sql_query);
+    if ($result) {
+    // Check if any rows were returned
+    if (pg_num_rows($result) > 0) {
+        // Fetch the user_id from the result
+        $user_id = pg_fetch_assoc($result)['user_id'];
 
-    if ($result && $row = pg_fetch_assoc($result)) {
-        // Session is active, display the username
-        $username = $row['username'];
-        echo "Welcome, $username!";
-        
-        // Add any other content you want to display for authenticated users
-    } else {
-        // Session is not active, display login and signup buttons
-        echo "Session ID: " . session_id();
-        echo '<a class="fa fa-sign-in" href="/login">Login</a>';
-        echo '<a class="fa fa-sign-out" href="/signup">Signup</a>';
-    }
-} else {
+        // Query the user table to get the username
+        $user_query = "SELECT username FROM users WHERE user_id = $user_id";
+        $result_user = pg_query($dbconn, $user_query);
+
+        // Check if the user exists
+        if ($result_user && pg_num_rows($result_user) > 0) {
+            $username = pg_fetch_assoc($result_user)['username'];
+            echo '<a href="#">Welcome, ' . $username . '</a>';
+            echo '<a class="fa fa-sign-out" href="/logout">Logout</a>';
+        } else {
     // Session ID not set, display login and signup buttons
     echo "Session ID: " . session_id();
     echo '<a class="fa fa-sign-in" href="/login">Login</a>';
     echo '<a class="fa fa-sign-out" href="/signup">Signup</a>';
 }
-
-pg_close($dbconn);
 ?>
 
   
