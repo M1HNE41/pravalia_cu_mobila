@@ -252,7 +252,7 @@ or die('Could not connect: ' . pg_last_error());
         $user_id = pg_fetch_assoc($result)['user_id'];
 
         // Query the user table to get the username
-        $user_query = "SELECT username FROM users WHERE user_id = $user_id";
+        $user_query = "SELECT username FROM users WHERE id = $user_id";
         $result_user = pg_query($dbconn, $user_query);
 
         // Check if the user exists
