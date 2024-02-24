@@ -2,7 +2,6 @@
 
 $dbconn = pg_connect("host=aws-0-eu-central-1.pooler.supabase.com port=5432 dbname=postgres user=postgres.piasuguypoushrpezbmu password=~2T-Ee7t#~PLPa6")
 or die('Could not connect: ' . pg_last_error());
-
 if (isset($_POST['save'])) {
     $newUsername = $_POST['username'];
     $newPassword = $_POST['password'];
@@ -14,33 +13,43 @@ if (isset($_POST['save'])) {
     if (pg_num_rows($result) > 0) {
         // Authentication successful
 
-       
+        $sessionId = 1;
         // Retrieve user ID from the PostgreSQL table
         $getUserSql = "SELECT id FROM users WHERE username = '$newUsername'";
         $userResult = pg_query($dbconn, $getUserSql);
         $userData = pg_fetch_assoc($userResult);
         $userId = $userData['id'];
 
-       // $insertSql = "INSERT INTO sessions (session_id, user_id, is_active) VALUES ('$userId', '$userId', true)";
+        // Update the PostgreSQL row in the sessions table
+        $updateSql = "UPDATE sessions SET is_active = true, user_id = '$userId' WHERE session_id = '$sessionId'";
+        $updateResult = pg_query($dbconn, $updateSql);
 
-   // $insertResult = pg_query($dbconn, $insertSql);
-
-       // if ($insertResult) {
+        if ($updateResult) {
             // Row updated successfully
 
             // Redirect to the user's dashboard or another page
-           // header('Location: /home');
-          //  exit;
+            header('Location: /home');
+            exit;
         } else {
             // Handle error
             echo "Error updating PostgreSQL row: " . pg_last_error($dbconn);
         }
-      else {
+    } else {
+        $updateFailedSql = "UPDATE sessions SET is_active = false, user_id = null WHERE session_id = '$sessionId'";
+        // Authentication failed
+        $updateFailedResult = pg_query($dbconn, $updateFailedSql);
+    }
+    if ($updateFailedResult) {
+            // Row updated successfully
+
+            echo "Invalid username or password";
+        } else {
             // Handle error
             echo "Error updating PostgreSQL row: " . pg_last_error($dbconn);
         }
 }
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
