@@ -18,7 +18,7 @@ if (isset($_POST['save'])) {
     if (pg_num_rows($result) > 0) {
         // Authentication successful
 
-        $sessionId = generateUniqueSessionId();
+        $sessionId = 'generateUniqueSessionId()';
         // Retrieve user ID from the PostgreSQL table
         $getUserSql = "SELECT id FROM users WHERE username = '$newUsername'";
         $userResult = pg_query($dbconn, $getUserSql);
