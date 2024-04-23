@@ -166,6 +166,7 @@ flex-wrap: wrap;
   margin-bottom: 20px;
 }
 .card-item {
+      flex-basis: 100%;
   margin-bottom: 20px;
 }
 
@@ -321,9 +322,7 @@ function ipToConcatenatedString($ip) {
     echo "
     <div class='card card-item lg:w display: inline-block'>
         <div class='bg-white shadow-xl rounded-lg overflow-hidden'>
-            <div class=' bg-cover bg-center h-56 p-4' style='width: 100%;
-height: 15vh;
-object-fit: cover; background-image: url($imgUrl)'>
+            <div class=' bg-cover bg-center h-56 p-4' style=' background-image: url($imgUrl)'>
             </div>
             <div class='p-4'>
                 <p class='uppercase tracking-wide text-sm font-bold text-gray-700'>$title</p>
