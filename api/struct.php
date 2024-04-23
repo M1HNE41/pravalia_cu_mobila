@@ -322,7 +322,7 @@ function ipToConcatenatedString($ip) {
     <div class='card card-item lg:w display: inline-block'>
         <div class='bg-white shadow-xl rounded-lg overflow-hidden'>
             <div class=' bg-cover bg-center h-56 p-4' style='width: 100%;
-height: 40vh;
+height: 15vh;
 object-fit: cover; background-image: url($imgUrl)'>
             </div>
             <div class='p-4'>
