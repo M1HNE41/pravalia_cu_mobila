@@ -166,7 +166,6 @@ flex-wrap: wrap;
   margin-bottom: 20px;
 }
 .card-item {
-      flex-basis: 100%;
   margin-bottom: 20px;
 }
 
@@ -177,6 +176,7 @@ flex-wrap: wrap;
 }
 
 .card-img-top {
+    flex-basis: 100%;
 width: 100%;
 height: 30vh;
 object-fit: contain;
