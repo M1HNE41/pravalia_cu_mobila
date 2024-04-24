@@ -176,7 +176,7 @@ height: 30vh;
 object-fit: contain;
 }
 .fixed-width-card {
-    width: 800px; /* adjust this value to your needs */
+    width: calc(33.33% - 20px); /* adjust this value to your needs */
     box-sizing: border-box; /* this makes sure padding and border are included in the width */
     word-wrap: break-word; /* this will break the words at the end of the line */
 }
@@ -184,6 +184,7 @@ object-fit: contain;
 .flex {
     display: flex; /* this will make the child elements take up equal height */
     flex-wrap: wrap; /* this will allow the child elements to wrap to the next line */
+    justify-content: space-between; /* this will evenly distribute the space between the cards */
 }
 
 .flex > div {
