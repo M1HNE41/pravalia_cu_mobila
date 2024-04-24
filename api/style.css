@@ -175,6 +175,10 @@ width: 100%;
 height: 30vh;
 object-fit: contain;
 }
+.fixed-width-card {
+    width: 300px; /* adjust this value to your needs */
+    box-sizing: border-box; /* this makes sure padding and border are included in the width */
+}
 .bottom{
   position: relative;
   color: black;
