@@ -140,18 +140,18 @@ div.relative {
   padding: 0 10px; /* add horizontal padding to the container */
 }
 
-.flex {
+.card-row {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .card-item {
+  flex: 1 0 30%; /* this will make the card take up 30% of the row width, and it won't grow or shrink */
   box-sizing: border-box;
   word-wrap: break-word;
   margin-bottom: 20px;
-  flex: 0 0 calc(33.33% - 10px); /* this will make the card take up 33.33% of the row width, and it won't grow or shrink */
-  max-width: calc(33.33% - 10px); /* this will limit the maximum width of the card */
+  max-width: calc(33.33% - 20px); /* this will limit the maximum width of the card */
 }
 
 .price {
