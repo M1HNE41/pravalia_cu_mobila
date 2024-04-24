@@ -80,7 +80,7 @@ echo '</div>'; // end the row
 
 <?php
 echo '<div class="flex flex-wrap justify-between mx-auto space-x-4" style="max-width: 1200px;">'; // start a new row
-$productNumber=1;
+$productNumber=7;
 for ($i = 0; $i < 2; $i++) { // generate 2 rows
     for ($j = 0; $j < 3; $j++) { // generate 3 cards in each row
         echo '<div style ="width: 30%; margin-bottom: 20px">';
@@ -105,7 +105,7 @@ echo '</div>'; // end the row
 
 <?php
 echo '<div class="flex flex-wrap justify-between mx-auto space-x-4" style="max-width: 1200px;">'; // start a new row
-$productNumber=1;
+$productNumber=13;
 for ($i = 0; $i < 2; $i++) { // generate 2 rows
     for ($j = 0; $j < 3; $j++) { // generate 3 cards in each row
         echo '<div style ="width: 30%; margin-bottom: 20px">';
@@ -127,7 +127,7 @@ echo '</div>'; // end the row
 </center>
 <?php
 echo '<div class="flex flex-wrap justify-between mx-auto space-x-4" style="max-width: 1200px;">'; // start a new row
-$productNumber=1;
+$productNumber=19;
 for ($i = 0; $i < 2; $i++) { // generate 2 rows
     for ($j = 0; $j < 3; $j++) { // generate 3 cards in each row
         echo '<div style ="width: 30%; margin-bottom: 20px">';
@@ -150,7 +150,7 @@ echo '</div>'; // end the row
 
 <?php
 echo '<div class="flex flex-wrap justify-between mx-auto space-x-4" style="max-width: 1200px;">'; // start a new row
-$productNumber=1;
+$productNumber=25;
 for ($i = 0; $i < 2; $i++) { // generate 2 rows
     for ($j = 0; $j < 3; $j++) { // generate 3 cards in each row
         echo '<div style ="width: 30%; margin-bottom: 20px">';
