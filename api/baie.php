@@ -65,13 +65,11 @@ echo '<div class="flex flex-wrap justify-between mx-auto space-x-4" style="max-w
 $productNumber=1;
 for ($i = 0; $i < 2; $i++) { // generate 2 rows
     for ($j = 0; $j < 3; $j++) { // generate 3 cards in each row
-        echo '<div style ="width: 30%; margin-bottom: 20px">';
         $productNumber++;
         $sql = "SELECT * FROM products WHERE id = '$productNumber'";
         $result = pg_query($dbconn, $sql);
         $product = pg_fetch_assoc($result);
-        generateCard($product['image_url'], $product['name'], $product['price'], $product['description'], $product['dimensions']);
-        echo'</div>';
+        generateCard($product['image_url'], $product['name'], $product['price'], $product['description'], $product['dimensions'])
     }
     echo '<div style="flex-basis: 100%; height: 0;"></div>'; // this will force wrapping to the next line
 }
