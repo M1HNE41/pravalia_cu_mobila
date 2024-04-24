@@ -61,11 +61,11 @@ Magazinul nostru va oferă o gamă extinsă de mobilă pentru dormitor, paturi c
 </p>
 
 <?php
-echo '<div class="flex">'; // start a new row
+echo '<div class="flex flex-wrap justify-between mx-auto space-x-4" style="max-width: 1200px;">'; // start a new row
 $productNumber=1;
 for ($i = 0; $i < 2; $i++) { // generate 2 rows
     for ($j = 0; $j < 3; $j++) { // generate 3 cards in each row
-        echo '<div class="card-item">'; // add the .card-item class
+        echo '<div style ="width: 30%; margin-bottom: 20px">';
         $productNumber++;
         $sql = "SELECT * FROM products WHERE id = '$productNumber'";
         $result = pg_query($dbconn, $sql);
@@ -73,6 +73,7 @@ for ($i = 0; $i < 2; $i++) { // generate 2 rows
         generateCard($product['image_url'], $product['name'], $product['price'], $product['description'], $product['dimensions']);
         echo'</div>';
     }
+    echo '<div style="flex-basis: 100%; height: 0;"></div>'; // this will force wrapping to the next line
 }
 echo '</div>'; // end the row
 ?>
