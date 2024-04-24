@@ -143,11 +143,11 @@ div.relative {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin: 0 10px; /* add horizontal margin */
 }
 
 .card-item {
-  width: calc(33.33% - 20px);
+  width: calc(33.33% - 20px); /* adjust this value to your needs */
   box-sizing: border-box;
   word-wrap: break-word;
   margin-bottom: 20px;
