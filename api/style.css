@@ -147,7 +147,7 @@ div.relative {
 }
 
 .card-item {
-  flex: 1 0 30%; /* this will make the card take up 30% of the row width, and it won't grow or shrink */
+  width: 30%; /* this will make the card take up 30% of the row width, and it won't grow or shrink */
   box-sizing: border-box;
   word-wrap: break-word;
   margin-bottom: 20px;
