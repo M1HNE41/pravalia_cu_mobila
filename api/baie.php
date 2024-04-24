@@ -61,7 +61,7 @@ Magazinul nostru va oferă o gamă extinsă de mobilă pentru dormitor, paturi c
 </p>
 
 <?php
-echo '<div class="card-row">'; // start a new row
+echo '<div class="flex">'; // start a new row
 $productNumber=1;
 for ($i = 0; $i < 2; $i++) { // generate 2 rows
     for ($j = 0; $j < 3; $j++) { // generate 3 cards in each row
@@ -70,9 +70,7 @@ for ($i = 0; $i < 2; $i++) { // generate 2 rows
         $sql = "SELECT * FROM products WHERE id = '$productNumber'";
         $result = pg_query($dbconn, $sql);
         $product = pg_fetch_assoc($result);
-        echo '<div class="card-item-content">';
         generateCard($product['image_url'], $product['name'], $product['price'], $product['description'], $product['dimensions']);
-        echo '</div>';
         echo'</div>';
     }
 }
