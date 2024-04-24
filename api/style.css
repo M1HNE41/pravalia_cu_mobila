@@ -151,7 +151,7 @@ div.relative {
   box-sizing: border-box;
   word-wrap: break-word;
   margin-bottom: 20px;
-  max-width: calc(33.33% - 20px); /* this will limit the maximum width of the card */
+  
 }
 
 .price {
