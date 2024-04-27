@@ -150,9 +150,7 @@ a {
                     <a href="/baie">Accesorii Baie</a>
                 </div>
             </div>
-            <a class="fa fa-phone"> Contact</a>
   	    <a class="fa fa-info-circle"> Informatii</a>
-  	    <a class="fa fa-legal"> Termeni si conditii</a>
  	    <a class="fa fa-wrench"> Servicii</a>
   	    <a class="fa fa-copyright"> Scurt istoric</a>
 <?php
