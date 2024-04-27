@@ -8,12 +8,10 @@
     {"src": "/style",  "dest": "/api/style.css" },
     {"src": "/accesorii-bucatarie",  "dest": "/api/accesorii bucatarie.php" },
     {"src": "/baie",  "dest": "/api/baie.php" },
-    {"src": "/birouri-de-acasa",  "dest": "/api/birouri de acasa.php" },
     {"src": "/login",  "dest": "/api/login.php" },
     {"src": "/signup",  "dest": "/api/signup.php" },
     {"src": "/logout",  "dest": "/api/logout.php" },
     {"src": "/mobila-dormitor",  "dest": "/api/mobila dormitor.php" },
-    {"src": "/mobila-hol",  "dest": "/api/mobila hol.php" },
     {"src": "/mobila-living",  "dest": "/api/mobila living.php" },
     {"src": "/home",  "dest": "/api/index.php" },
     { "src": "/(.*)",  "dest": "/api/index.php" }
