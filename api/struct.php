@@ -226,11 +226,9 @@ object-fit: contain;
    <button class="subnavbtn"><i class="fa fa-bars"> Mobila</i></button>
     <div class="subnav-content">
       <a href="/mobila-dormitor">Mobila Dormitor</a>
-      <a href="/mobila-hol">Mobila Hol</a>
       <a href="/mobila-living">Mobila Living</a>
       <a href="/accesorii-bucatarie">Accesorii bucatarie</a>
       <a href="/baie">Baie</a>
-      <a href="/birouri-de-acasa">Birouri de acasa</a>
     </div>
   </div>   
 
