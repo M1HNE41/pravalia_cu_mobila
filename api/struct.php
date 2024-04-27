@@ -2,6 +2,195 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <style>
+        .btn {                                       
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 14px 16px;
+  font-size: 16px;
+  cursor: pointer;
+    }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+    color: white;
+  text-decoration: none;
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 14px;
+}
+div.relative {
+  position: relative;
+  left: -30px;
+
+}
+/* The subnavigation menu */
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Add a red background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: grey;
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: grey;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+.footer {
+  padding: 1rem;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  position: auto;
+  text-align: center;
+
+}
+
+.vertical-menu {
+  width: 100px;
+}
+
+.vertical-menu a {
+  background-color: transparent;
+  color: black;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: transparent;
+}
+
+.container{
+  max-width:1200px;
+  margin:0 auto;
+  background:#f2f2f2;
+  overflow: auto;
+  padding: 0 10px; /* add horizontal padding to the container */
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-item {
+  flex: 1 0 30%; /* this will make the card take up 30% of the row width, and it won't grow or shrink */
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-bottom: 20px;
+  max-width: calc(33.33% - 20px); /* this will limit the maximum width of the card */
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+  text-align: center;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 30vh;
+  object-fit: contain;
+}
+
+
+.bottom{
+  position: relative;
+  color: black;
+}
+.vertical-menu2 {
+  width: 100px;
+}
+
+.vertical-menu2 a {
+  background-color: transparent;
+  color: black;
+  display: block;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.vertical-menu2 a:hover {
+  background-color: transparent;
+}    </style>
   <title>Pravalia cu mobila</title>
   <div class="relative">
     <div id="logo">
@@ -15,7 +204,6 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.0.1/tailwind.min.css'>
-<link rel="stylesheet" type="text/css" href="/style">
 
 
 </head>
