@@ -137,6 +137,19 @@ div.relative {
   background-color: transparent;
 }
 
+.gallery {
+    margin: 30px;
+    border-left: currentColor solid #ccc;
+    float: left;
+    width: 300px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 200px;
+    flex-wrap: wrap;
+}
+
 .container{
   max-width:1200px;
   margin:0 auto;
