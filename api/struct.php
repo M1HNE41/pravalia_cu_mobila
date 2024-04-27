@@ -150,39 +150,7 @@ div.relative {
     flex-wrap: wrap;
 }
 
-.container{
-  max-width:1200px;
-  margin:0 auto;
-  background:#f2f2f2;
-  overflow: auto;
-  padding: 0 10px; /* add horizontal padding to the container */
-}
 
-.card-row {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.card-item {
-  flex: 1 0 30%; /* this will make the card take up 30% of the row width, and it won't grow or shrink */
-  box-sizing: border-box;
-  word-wrap: break-word;
-  margin-bottom: 20px;
-  max-width: calc(33.33% - 20px); /* this will limit the maximum width of the card */
-}
-
-.price {
-  color: grey;
-  font-size: 22px;
-  text-align: center;
-}
-
-.card-img-top {
-  width: 100%;
-  height: 30vh;
-  object-fit: contain;
-}
 
 
 .bottom{
