@@ -5,21 +5,7 @@ include 'struct.php';
 <!DOCTYPE html>
 <html>
 
-
-
 <body>
- <h1>
-   <center>
-   Bine ati venit!
- </center>
- </h1>
-<p>
-Suntem un nou magazin de mobila si ne straduim sa aducem pe piata produse accesibile pentru fiecare si pe placul tuturor.De asemenea,la cererea clientilor, se pot executa diferite piese de mobilier la comanda sau diferite modele pot fi personalizate dupa dorintele fiecaruia. Va invitam sa cautati prin numeroasele produse, piesa de mobilier care lipseste din casa dumneavoastra!
-
-</p>
-
-<p>Va dorim o sesiune de cautare productiva!</p>
-          
 <center>
     <b>CATEGORII</b>
 </center>
