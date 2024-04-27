@@ -143,7 +143,11 @@ div.relative {
     float: left;
     width: 300px;
 }
-
+.gallery img {
+    width: 100%;
+    height: 200px;
+    flex-wrap: wrap;
+}
 .bottom{
   position: relative;
   color: black;
