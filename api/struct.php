@@ -229,6 +229,8 @@ function ipToConcatenatedString($ip) {
     echo '<a class="fa fa-sign-out" href="/signup">Signup</a>';
 }
 ?>
+        </nav>
+    </header>
 </body>
 </html>
 
