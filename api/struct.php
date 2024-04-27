@@ -218,8 +218,8 @@ function ipToConcatenatedString($ip) {
     }
         else {
     // Session ID not set, display login and signup buttons
-    echo '<a class="fa fa-sign-in" href="/login">Login</a>';
-    echo '<a class="fa fa-sign-out" href="/signup">Signup</a>';
+    echo '<a class="fa" href="/login">Login</a>';
+    echo '<a class="fa" href="/signup">Signup</a>';
 }
     }else {
     // Session ID not set, display login and signup buttons
