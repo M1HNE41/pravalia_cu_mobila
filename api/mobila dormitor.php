@@ -12,9 +12,6 @@ or die('Could not connect: ' . pg_last_error());
 </h1>
 </center>
 
-<p>
-Magazinul nostru va oferă o gamă extinsă de mobilă pentru dormitor, paturi continentale,cearșafuri cu elastic, antialergice, dulapuri, noptiere şi dispune de un sortiment bogat care să se potrivească modului în care dormi, totul la preţuri convenabile.
-</p>
 <hr color="grey"  width="auto" >
 <div class="gallery">
   <img class="card-img-top" src="Poze produse\Dormitor1.jpg">
