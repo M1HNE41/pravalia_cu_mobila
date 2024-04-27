@@ -10,7 +10,6 @@ include 'struct.php';
     <b>CATEGORII</b>
 </center>
 
-<!-- Galerie Imagini-->
 <div class="gallery">
   <a href="/mobila-dormitor">
   <img src="https://piasuguypoushrpezbmu.supabase.co/storage/v1/object/sign/products/index/Dormitor.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9kdWN0cy9pbmRleC9Eb3JtaXRvci5qcGciLCJpYXQiOjE3MDg2NDA3NzYsImV4cCI6MzE1NTI3NzEwNDc3Nn0.LQao52pUQp4-CPqNf0qt7SsLgQ1zZo8EgIzO0-uMKxQ&t=2024-02-22T22%3A26%3A17.390Z">
@@ -40,20 +39,6 @@ include 'struct.php';
   
 </div>
 
-<div class="gallery">
-  <a href="/mobila-hol">
-  <img src="https://piasuguypoushrpezbmu.supabase.co/storage/v1/object/sign/products/index/Hol%20furniture.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9kdWN0cy9pbmRleC9Ib2wgZnVybml0dXJlLmpwZyIsImlhdCI6MTcwODY0MDg2MiwiZXhwIjozMTU1Mjc3MTA0ODYyfQ.If_wNAmcQtBbtZ0rS09Y37SwSHEQcpLrf3ue-7XzOy8&t=2024-02-22T22%3A27%3A43.754Z">
-  </a>
-  <div class="desc">Hol</div>
-  
-</div>
-
-<div class="gallery">
-  <a href="/birouri-de-acasa">
-  <img src="https://piasuguypoushrpezbmu.supabase.co/storage/v1/object/sign/products/index/Birou.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9kdWN0cy9pbmRleC9CaXJvdS5qcGciLCJpYXQiOjE3MDg2NDA4NzcsImV4cCI6MzE1NTI3NzEwNDg3N30.RFf0q2CuEP4PTe6CEs_2U3Kce4MP1cjR--O1EEF3Zho&t=2024-02-22T22%3A27%3A58.771Z">
-  </a>
-  <div class="desc">Birouri</div>
-</div>
 
 <?php include 'footer.php'; ?>
 </body>
