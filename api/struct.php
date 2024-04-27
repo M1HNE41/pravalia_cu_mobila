@@ -45,18 +45,39 @@ a {
             font-family: 'Poppins', sans-serif; /* Schimbăm fontul butoanelor */
         }
 
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            min-width: 160px;
-            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-            z-index: 1;
-        }
+       .dropdown {
+    position: relative;
+    display: inline-block;
+}
 
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 4px; /* Adăugăm un border-radius pentru margini rotunjite */
+}
+
+.dropdown-content a {
+    color: #000000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Adăugăm o tranziție pentru schimbarea culorii la hover */
+    margin: 0; /* Eliminăm marginile implicite ale elementelor <a> */
+}
+
+.dropdown-content a:hover {
+    background-color: #f2f2f2; /* Schimbăm culoarea la hover */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 
 
 
