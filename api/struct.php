@@ -23,14 +23,6 @@ a {
   text-decoration: none;
 }
 
-.header {
-            background-color: #ffffff;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 20px;
-        }
-
         .logo {
             color: #000000;
             text-decoration: none;
