@@ -4,15 +4,22 @@
 <head>
   <style>
 body, header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #ffffff;
-  overflow-x: hidden;
-  font-family: 'Poppins', sans-serif;
-  color: #000000;
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
-  animation: animate-bg 0.92s infinite linear;
+  background-image: radial-gradient(rgba(124, 252, 0, 0.4) 1px, black 1px);
+  background-size: 40px 40px;
+  animation: background 300s linear infinite;
 }
+
+
+
+
 @keyframes  animate-bg {
   100% {
     background-position: 50px 50px;
