@@ -66,7 +66,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 25%;
+  height: 50%;
   width: auto;
   min-height: 100px;
   margin-right: 30px;
