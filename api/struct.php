@@ -177,9 +177,9 @@ a {
                     <a href="/baie">Accesorii Baie</a>
                 </div>
             </div>
-  	    <a class="fa fa-info-circle"> Informatii</a>
- 	    <a class="fa fa-wrench"> Servicii</a>
-  	    <a class="fa fa-copyright"> Scurt istoric</a>
+  	    <a> Informatii</a>
+ 	    <a> Servicii</a>
+  	    <a> Scurt istoric</a>
 <?php
 $dbconn = pg_connect("host=aws-0-eu-central-1.pooler.supabase.com port=5432 dbname=postgres user=postgres.piasuguypoushrpezbmu password=~2T-Ee7t#~PLPa6")
 or die('Could not connect: ' . pg_last_error());
