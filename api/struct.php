@@ -3,7 +3,7 @@
 <html lang="ro">
 <head>
   <style>
-body {
+body, header {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #ffffff;
