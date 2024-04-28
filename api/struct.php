@@ -10,8 +10,14 @@ body {
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
   color: #000000;
+  background: url("https://www.toptal.com/designers/subtlepatterns/uploads/what-the-hex.png") repeat 0 0;
+  animation: animate-bg 0.92s infinite linear;
 }
-
+@keyframes  animate-bg {
+  100% {
+    background-position: 50px 50px;
+  }
+}
 a {
     color: white;
   text-decoration: none;
