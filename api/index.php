@@ -69,14 +69,7 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-@keyframes background {
-  0% {
-    background-position: -300% 100%;
-  }
-  100% {
-    background-position: 100% -300%;
-  }
-}
+
 
 #mz-gallery figure div {
   position: absolute;
