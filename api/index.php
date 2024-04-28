@@ -29,7 +29,6 @@ body {
   justify-content: center;
   width: 100%;
   height: 100vh;
-  overflow: hidden;
   margin: 0;
 }
 
