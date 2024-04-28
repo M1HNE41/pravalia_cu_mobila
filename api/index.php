@@ -1,3 +1,7 @@
+<?php
+session_start();
+include 'struct.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -252,10 +256,6 @@ body {
 }
 
     </style>
-    <?php
-session_start();
-include 'struct.php';
-?>
 </head>
 <body>
 <center>
