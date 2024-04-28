@@ -259,6 +259,7 @@ body {
     </style>
 </head>
 <body>
+    <div class="div1">
 <center>
     <b>CATEGORII</b>
 </center>
@@ -304,5 +305,6 @@ body {
 
   </div>
 <?php include 'footer.php'; ?>
+</div>
 </body>
 </html>
