@@ -31,9 +31,6 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
-  background-image: radial-gradient(rgba(124, 252, 0, 0.4) 1px, black 1px);
-  background-size: 40px 40px;
-  animation: background 300s linear infinite;
 }
 
 #mz-gallery-container {
