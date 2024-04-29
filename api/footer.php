@@ -37,11 +37,6 @@ ul {
   list-style-type: none;
   padding: 0;
 }
-button {
-  appearance: none;
-  border: 0;
-  background: transparent;
-}
 .flex {
   display: flex;
 }
@@ -69,9 +64,6 @@ button {
   .w-25 {
     width: 25%;
   }
-}
-form {
-  position: relative;
 }
 svg {
   margin: 0.5rem;
@@ -188,12 +180,6 @@ svg {
                 </a>
               </li>
             </ul>
-          </div>
-          <div class="layout_item w-25" style="display:flex;justify-content: end;align-items: center;">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36">
-              <path fill="none" d="M0 0h24v24H0z" />
-              <path d="M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zm1 10h3l-4-4-4 4h3v4h2v-4z" />
-            </svg>
           </div>
         </div>
       </div>
