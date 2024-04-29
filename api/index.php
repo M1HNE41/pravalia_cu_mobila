@@ -300,6 +300,7 @@ body {
       <div></div>
     </figure>
 </div>
+</body>
     <div style="clear:both;"></div>
   <div class="footer">
     <div style="padding-right:35px">
@@ -308,5 +309,4 @@ body {
     <a class="fa fa-instagram" href="https://instagram.com" target="_blank"> Instragram </a>
     </div>
   </div>
-</body>
 </html>
