@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
+  <meta name="google-site-verification" content="cegB27eo8bVivjtxdVsHOLTnA-91EPyeYNmgvg-BhWw" />
   <script>
   window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
 </script>
