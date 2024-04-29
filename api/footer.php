@@ -104,16 +104,33 @@ a {
   text-decoration: none;
   color: var(--dark);
   font-weight: 400;
-  border-bottom: 1px solid var(--dark);
   margin-bottom: 0.5rem;
   display: inline-flex;
 }
-a:hover {
-  border-bottom: 1px solid transparent;
-}
+
 ul {
   list-style-type: none;
   padding: 0;
+}
+
+.bottom-line {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+.bottom-line:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+
+.bottom-line:hover::after {
+    width: 100%;
+    //transition: width .3s;
 }
 
 @media screen and (min-width: 24.375em) {
@@ -149,7 +166,7 @@ ul {
 
       <ul class="nav__ul">
         <li>
-          <a href="#">Online</a>
+          <a href="#" class="bottom-line">Online</a>
         </li>
 
         <li>
