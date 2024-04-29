@@ -283,7 +283,7 @@ body {
     </figure>
     <div style="flex-basis: 100%; height: 0;"></div> <!-- this will force wrapping to the next line -->
     <figure style ="margin-bottom: 20px">
-      <img src="https://piasuguypoushrpezbmu.supabase.co/storage/v1/object/sign/products/index/Dormitor.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9kdWN0cy9pbmRleC9Eb3JtaXRvci5qcGciLCJpYXQiOjE3MDg2NDA3NzYsImV4cCI6MzE1NTI3NzEwNDc3Nn0.LQao52pUQp4-CPqNf0qt7SsLgQ1zZo8EgIzO0-uMKxQ&t=2024-02-22T22%3A26%3A17.390Z" alt="Baie"onclick="window.location.href='/baie';" ontouchstart="window.location.href='/baie';">
+      <img src="https://www.thespruce.com/thmb/Ba5hg_Dly4IrrInQ-XdKiGVAePo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/fancy-bathroom-ideas-4325947-hero-4777bf14fe2b447b86a21e8a64194c29.jpg" alt="Baie"onclick="window.location.href='/baie';" ontouchstart="window.location.href='/baie';">
       <figcaption>Baie</figcaption>
       <div></div>
       <div></div>
