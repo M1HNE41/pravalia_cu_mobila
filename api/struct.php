@@ -22,7 +22,9 @@ body, header {
     background-position: 50px 50px;
   }
 }
-
+a:hover {
+  border-bottom: 1px solid var(--dark);
+}
     .header {
             background-color: #ffffff;
             display: flex;
