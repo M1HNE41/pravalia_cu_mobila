@@ -149,12 +149,6 @@ body {
     <h1 class="footer__logo">Something</h1>
         
     <h2>Contact</h2>
-    
-    <address>
-      5534 Somewhere In. The World 22193-10212<br>
-          
-      
-    </address>
   </div>
   
   <ul class="footer__nav">
