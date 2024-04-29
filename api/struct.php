@@ -84,22 +84,6 @@ body, header {
     display: block;
 }
 
-
-
-
-
-.footer {
-  padding: 1rem;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #333;
-  color: white;
-  position: auto;
-  text-align: center;
-
-}
-
 .vertical-menu {
   width: 100px;
 }
