@@ -155,15 +155,15 @@ body, header {
             <div class="dropdown">
                 <a href="#" class="dropdown-btn">Mobila</a>
                 <div class="dropdown-content">
-                    <a href="/mobila-dormitor">Mobila Dormitor</a>
+                    <a href="/mobila-dormitor" >Mobila Dormitor</a>
                     <a href="/mobila-living">Mobila Living</a>
                     <a href="/accesorii-bucatarie">Accesorii Bucătărie</a>
                     <a href="/baie">Accesorii Baie</a>
                 </div>
             </div>
-  	    <a> Informatii</a>
- 	    <a> Servicii</a>
-  	    <a> Scurt istoric</a>
+  	    <a class="bottom-line"> Informatii</a>
+ 	    <a> class="bottom-line" Servicii</a>
+  	    <a class="bottom-line"> Scurt istoric</a>
 <?php
 $dbconn = pg_connect("host=aws-0-eu-central-1.pooler.supabase.com port=5432 dbname=postgres user=postgres.piasuguypoushrpezbmu password=~2T-Ee7t#~PLPa6")
 or die('Could not connect: ' . pg_last_error());
@@ -210,7 +210,8 @@ function ipToConcatenatedString($ip) {
             $username = pg_fetch_assoc($result_user)['username'];
             echo '<a href="#">Welcome, ' . $username . '</a>';
             echo '<form method="post">
-    <button type="submit" name="logout">Logout</button>
+    <button type="submit" name="logout" class="bottom-line" style ="font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;">Logout</button>
 </form>';
             if (isset($_POST['logout'])) {
                 $delete_query = "DELETE FROM sessions WHERE session_id = $sessionId";
@@ -229,13 +230,13 @@ function ipToConcatenatedString($ip) {
     }
         else {
     // Session ID not set, display login and signup buttons
-    echo '<a class="fa" href="/login">Login</a>';
-    echo '<a class="fa" href="/signup">Signup</a>';
+    echo '<a class="bottom-line" href="/login">Login</a>';
+    echo '<a class="bottom-line" href="/signup">Signup</a>';
 }
     }else {
     // Session ID not set, display login and signup buttons
-    echo '<a class="fa fa-sign-in" href="/login">Login</a>';
-    echo '<a class="fa fa-sign-out" href="/signup">Signup</a>';
+    echo '<a class="bottom-line" href="/login">Login</a>';
+    echo '<a class="bottom-line" href="/signup">Signup</a>';
 }
 ?>
         </nav>
