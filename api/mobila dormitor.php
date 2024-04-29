@@ -32,21 +32,6 @@ or die('Could not connect: ' . pg_last_error());
   <img class="card-img-top" src="Poze produse\Dormitor4.jpg">
   
 </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 <hr color="black"  width="1900px" >
 <br>
 <br>
@@ -56,7 +41,7 @@ or die('Could not connect: ' . pg_last_error());
 
 <?php
 echo '<div class="flex flex-wrap justify-between mx-auto space-x-4" style="max-width: 1200px;">'; // start a new row
-$productNumber=0;
+$productNumber=66;
 for ($i = 0; $i < 2; $i++) { // generate 2 rows
     for ($j = 0; $j < 3; $j++) { // generate 3 cards in each row
         echo '<div style ="width: 30%; margin-bottom: 20px">';
