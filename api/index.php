@@ -5,7 +5,7 @@ include 'struct.php';
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="google-site-verification" content="cegB27eo8bVivjtxdVsHOLTnA-91EPyeYNmgvg-BhWw" />
+
     <style>
         
 *,
@@ -255,6 +255,7 @@ body {
 }
 
     </style>
+        <meta name="google-site-verification" content="cegB27eo8bVivjtxdVsHOLTnA-91EPyeYNmgvg-BhWw" />
 </head>
 <body>
     <div class="div1">
