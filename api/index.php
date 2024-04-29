@@ -299,9 +299,6 @@ body {
       <div></div>
       <div></div>
     </figure>
-    <div style="flex-basis: 100%; height: 0;"></div>; <!-- this will force wrapping to the next line -->
-
-  </div>
 <?php include 'footer.php'; ?>
 </div>
 </body>
