@@ -125,13 +125,13 @@ a {
   text-decoration: none;
   color: var(--dark);
   font-weight: 400;
-  transition: 0.3s ease-in;
   border-bottom: 1px solid var(--dark);
   margin-bottom: 0.5rem;
   display: inline-flex;
 }
 a:hover {
   border-bottom: 1px solid transparent;
+  transition: 0.3s ease-in;
 }
 ul {
   list-style-type: none;
