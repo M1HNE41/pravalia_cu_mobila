@@ -65,7 +65,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 50%;
+  height: 150%;
   width: auto;
   min-height: 100px;
   margin-right: 30px;
@@ -117,7 +117,7 @@ body {
 /* dimensiunea pozei*/
 #mz-gallery figure img {
   height: 100%;
-  width: 50%;
+  width: 100%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
   border-radius: 5px;
