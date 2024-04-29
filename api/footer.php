@@ -126,6 +126,7 @@ a {
   color: var(--dark);
   font-weight: 400;
   transition: 0.3s ease-in;
+  border-bottom: 1px solid transparent;
   margin-bottom: 0.5rem;
   display: inline-flex;
 }
