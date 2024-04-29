@@ -18,10 +18,7 @@ body, header {
     background-position: 50px 50px;
   }
 }
-a {
-    color: white;
-  text-decoration: none;
-}
+
     .header {
             background-color: #ffffff;
             display: flex;
