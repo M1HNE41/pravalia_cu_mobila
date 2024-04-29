@@ -76,8 +76,29 @@ for ($i = 0; $i < 2; $i++) { // generate 2 rows
 }
 echo '</div>'; // end the row
 
+
+?>
+<center>
+<h3 >Cuverturi</h3>
+</center>
+
+<?php
+echo '<div class="flex flex-wrap justify-between mx-auto space-x-4" style="max-width: 1200px;">'; // start a new row
+for ($i = 0; $i < 2; $i++) { // generate 2 rows
+    for ($j = 0; $j < 3; $j++) { // generate 3 cards in each row
+        echo '<div style ="width: 30%; margin-bottom: 20px">';
+        $productNumber++;
+        $sql = "SELECT * FROM products WHERE id = '$productNumber'";
+        $result = pg_query($dbconn, $sql);
+        $product = pg_fetch_assoc($result);
+        generateCard($product['image_url'], $product['name'], $product['price'], $product['description'], $product['dimensions']);
+        echo'</div>';
+    }
+    echo '<div style="flex-basis: 100%; height: 0;"></div>'; // this will force wrapping to the next line
+}
+echo '</div>'; // end the row
+
 include 'footer.php';
 ?>
-
 </body>
 </html>
