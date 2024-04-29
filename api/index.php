@@ -266,8 +266,8 @@ body {
 <div id="mz-gallery-container">
 
   <div id="mz-gallery" class="flex flex-wrap justify-between mx-auto space-x-4" style="max-width: 1200px;">
-     <button onclick="window.location.href='/baie';">
     <figure style ="margin-bottom: 20px">
+      <button onclick="window.location.href='/baie';">
       <img src="https://piasuguypoushrpezbmu.supabase.co/storage/v1/object/sign/products/index/Dormitor.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9kdWN0cy9pbmRleC9Eb3JtaXRvci5qcGciLCJpYXQiOjE3MDg2NDA3NzYsImV4cCI6MzE1NTI3NzEwNDc3Nn0.LQao52pUQp4-CPqNf0qt7SsLgQ1zZo8EgIzO0-uMKxQ&t=2024-02-22T22%3A26%3A17.390Z" alt="Dormitor" width="4" height="100">
       <figcaption>Dormitor/figcaption>
       <div></div>
