@@ -299,7 +299,7 @@ body {
       <div></div>
       <div></div>
     </figure>
-<?php include 'footer.php'; ?>
 </div>
+    <?php include 'footer.php'; ?>
 </body>
 </html>
