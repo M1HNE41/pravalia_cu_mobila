@@ -43,7 +43,8 @@ body, header {
             align-items: center;
         }
 
-        .menu a {
+        .menu a,
+        .menu button {
             color: #000000;
             text-decoration: none;
             margin-left: 20px;
