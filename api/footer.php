@@ -202,7 +202,7 @@ ul {
         </li>
         
         <li>
-          <a href="#">Sitemap</a>
+          <a href="#" class="c-link">Sitemap</a>
         </li>
       </ul>
     </li>
