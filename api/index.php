@@ -255,7 +255,6 @@ body {
 }
 
     </style>
-        <meta name="google-site-verification" content="cegB27eo8bVivjtxdVsHOLTnA-91EPyeYNmgvg-BhWw" />
 </head>
 <body>
     <div class="div1">
