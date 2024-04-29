@@ -193,7 +193,7 @@ body {
   </ul>
   
   <div class="legal">
-    <p>&copy; 2019 Something. All rights reserved.</p>
+    <p>&copy; 2024 Pravalia cu mobila. All rights reserved.</p>
     
 
   </div>
