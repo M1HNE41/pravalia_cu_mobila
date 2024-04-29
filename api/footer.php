@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: acumin-pro, system-ui, sans-serif;
+  font-family: "Rubik", sans-serif;
   margin: 0;
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -160,6 +160,7 @@ ul {
   }
 }
 	</style>
+	@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&family=Rubik:wght@400;500;700&display=swap");
 </head>
 <body>
 <footer class="footer">
