@@ -210,7 +210,7 @@ function ipToConcatenatedString($ip) {
             $username = pg_fetch_assoc($result_user)['username'];
             echo '<a href="#">Welcome, ' . $username . '</a>';
             echo '<form method="post">
-    <button type="submit" name="logout" class="bottom-line">Logout</button>
+     <a class="bottom-line" name="logout">Logout</a>
 </form>';
             if (isset($_POST['logout'])) {
                 $delete_query = "DELETE FROM sessions WHERE session_id = $sessionId";
