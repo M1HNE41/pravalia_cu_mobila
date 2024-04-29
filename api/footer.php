@@ -2,6 +2,7 @@
 <html>
 <head>
 	<style type="">
+		@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&family=Rubik:wght@400;500;700&display=swap");
 		*, *:before, *:after {
   box-sizing: border-box;
 }
@@ -19,6 +20,7 @@ body {
   background-color: #f4f4f4;
   align-items: start;
   min-height: 100vh;
+  box-sizing: border-box;
 }
 
 .footer {
@@ -160,7 +162,6 @@ ul {
   }
 }
 	</style>
-	@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&family=Rubik:wght@400;500;700&display=swap");
 </head>
 <body>
 <footer class="footer">
