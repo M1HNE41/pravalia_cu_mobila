@@ -228,9 +228,6 @@ body {
 /* touch screen devices */
 
 @media (pointer: coarse) {
-  #mz-gallery * {
-    pointer-events: none;
-  }
   #mz-gallery::-webkit-scrollbar {
     height: 35px;
   }
