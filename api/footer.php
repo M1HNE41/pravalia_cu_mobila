@@ -39,33 +39,12 @@ body {
   flex:  1 100%;
 }
 
-.footer__addr {
-  margin-right: 1.25em;
-  margin-bottom: 2em;
-}
-
-.footer__logo {
-  font-family: 'Pacifico', cursive;
-  font-weight: 400;
-  text-transform: lowercase;
-  font-size: 1.5rem;
-}
-
-.footer__addr h2 {
-  margin-top: 1.3em;
-  font-size: 15px;
-  font-weight: 400;
-}
-
 .nav__title {
   font-weight: 400;
   font-size: 15px;
 }
 
-.footer address {
-  font-style: normal;
-  color: #999;
-}
+
 
 .footer__btn {
   display: flex;
@@ -97,7 +76,7 @@ body {
 
 .footer__nav {
   display: flex;
-	flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 
 .footer__nav > * {
@@ -131,7 +110,6 @@ a {
 }
 a:hover {
   border-bottom: 1px solid transparent;
-  transition: 0.3s ease-in;
 }
 ul {
   list-style-type: none;
@@ -164,13 +142,7 @@ ul {
 	</style>
 </head>
 <body>
-<footer class="footer">
-  <div class="footer__addr">
-    <h1 class="footer__logo">Something</h1>
-        
-    <h2>Contact</h2>
-  </div>
-  
+<footer class="footer">  
   <ul class="footer__nav">
     <li class="nav__item">
       <h2 class="nav__title">Media</h2>
