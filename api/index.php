@@ -283,7 +283,7 @@ body {
     </figure>
     <div style="flex-basis: 100%; height: 0;"></div> <!-- this will force wrapping to the next line -->
     <figure style ="margin-bottom: 20px">
-      <img src="https://www.thespruce.com/thmb/Ba5hg_Dly4IrrInQ-XdKiGVAePo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/fancy-bathroom-ideas-4325947-hero-4777bf14fe2b447b86a21e8a64194c29.jpg" alt="Baie"onclick="window.location.href='/baie';" ontouchstart="window.location.href='/baie';">
+      <img src="https://piasuguypoushrpezbmu.supabase.co/storage/v1/object/sign/products/index/Bathroom.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9kdWN0cy9pbmRleC9CYXRocm9vbS5qcGciLCJpYXQiOjE3MTQzODkwNDksImV4cCI6MzE1NTMxNDM4OTA0OX0.PDAlA62GVGp_fUL25o0LNNiUTczBswDkwnCYGx3s1As&t=2024-04-29T11%3A10%3A50.200Z" alt="Bathroom"onclick="window.location.href='/baie';" ontouchstart="window.location.href='/baie';">
       <figcaption>Baie</figcaption>
       <div></div>
       <div></div>
@@ -292,7 +292,7 @@ body {
     </figure>
 
     <figure style ="margin-bottom: 20px">
-      <img src="https://piasuguypoushrpezbmu.supabase.co/storage/v1/object/sign/products/index/Living.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9kdWN0cy9pbmRleC9MaXZpbmcuanBnIiwiaWF0IjoxNzA4NjQwODAzLCJleHAiOjMxNTUyNzcxMDQ4MDN9.MoNYrDS6s84nJ6J-CLK8Lla8wCFjTRvt6W1fCl2qoDA&t=2024-02-22T22%3A26%3A44.500Z" alt="Bucatarie" onclick="window.location.href='/accesorii-bucatarie';" ontouchstart="window.location.href='/accesorii-bucatarie';">
+      <img src="https://piasuguypoushrpezbmu.supabase.co/storage/v1/object/sign/products/index/Kitchen.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9kdWN0cy9pbmRleC9LaXRjaGVuLmpwZyIsImlhdCI6MTcxNDM4OTEwMywiZXhwIjozMTU1MzE0Mzg5MTAzfQ.yOFwgL7uVFRL81PEktc2b2cKBCZ6NtHvb0lygXOyKYY&t=2024-04-29T11%3A11%3A44.053Z" alt="Kitchen" onclick="window.location.href='/accesorii-bucatarie';" ontouchstart="window.location.href='/accesorii-bucatarie';">
       <figcaption>Bucatarie</figcaption>
       <div></div>
       <div></div>
