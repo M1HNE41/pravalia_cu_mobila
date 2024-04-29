@@ -56,7 +56,7 @@ or die('Could not connect: ' . pg_last_error());
 
 <?php
 echo '<div class="flex flex-wrap justify-between mx-auto space-x-4" style="max-width: 1200px;">'; // start a new row
-$productNumber=24;
+$productNumber=0;
 for ($i = 0; $i < 2; $i++) { // generate 2 rows
     for ($j = 0; $j < 3; $j++) { // generate 3 cards in each row
         echo '<div style ="width: 30%; margin-bottom: 20px">';
