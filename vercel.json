@@ -11,6 +11,7 @@
     {"src": "/info",  "dest": "/api/info.php" },
     {"src": "/servicii",  "dest": "/api/servicii.php" },
     {"src": "/login",  "dest": "/api/login.php" },
+    {"src": "/istoric",  "dest": "/api/istoric.php" },
     {"src": "/signup",  "dest": "/api/signup.php" },
     {"src": "/logout",  "dest": "/api/logout.php" },
     {"src": "/mobila-dormitor",  "dest": "/api/mobila dormitor.php" },
