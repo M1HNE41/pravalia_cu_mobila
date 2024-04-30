@@ -9,6 +9,7 @@
     {"src": "/accesorii-bucatarie",  "dest": "/api/accesorii bucatarie.php" },
     {"src": "/baie",  "dest": "/api/baie.php" },
     {"src": "/info",  "dest": "/api/info.php" },
+    {"src": "/servicii",  "dest": "/api/servicii.php" },
     {"src": "/login",  "dest": "/api/login.php" },
     {"src": "/signup",  "dest": "/api/signup.php" },
     {"src": "/logout",  "dest": "/api/logout.php" },
