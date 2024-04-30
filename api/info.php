@@ -6,14 +6,8 @@
     <title>Despre Noi</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
-        /* Resetare stiluri implicite */
-        body, h1, h2, h3, p, ul, li {
-            margin: 0;
-            padding: 0;
-        }
-
         /* Stiluri de bază */
-        body {
+        .info {
             font-family: 'Poppins', sans-serif;
             line-height: 1.6;
             background-color: #f9f9f9;
@@ -67,6 +61,7 @@
 $dbconn = pg_connect("host=aws-0-eu-central-1.pooler.supabase.com port=5432 dbname=postgres user=postgres.piasuguypoushrpezbmu password=~2T-Ee7t#~PLPa6")
 or die('Could not connect: ' . pg_last_error());
 ?>
+<div class="info">
     <div class="about-section">
         <h2>Despre Noi</h2>
         <p>Pravalia cu Mobila este o destinație de încredere pentru soluțiile tale de mobilier și amenajare interioară. Ne străduim să oferim o gamă variată de produse de calitate și servicii personalizate pentru clienții noștri.</p>
@@ -85,6 +80,7 @@ or die('Could not connect: ' . pg_last_error());
             <li>Îmbunătățirea continuă</li>
         </ul>
     </div>
+</div>
 </body>
 <?php include 'footer.php'; ?>
 </html>
