@@ -196,7 +196,7 @@ ul {
         </li>
         
         <li>
-          <a href="/mobila-dormitor" class="bottom-line">Scurt istoric</a>
+          <a href="/istoric" class="bottom-line">Scurt istoric</a>
         </li>
       </ul>
     </li>
