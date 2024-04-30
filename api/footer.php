@@ -19,7 +19,7 @@ body {
   box-sizing: border-box;
 }
 
-.footer {
+#main-footer {
   position: absolute;
   bottom: 0;
   left:0;
