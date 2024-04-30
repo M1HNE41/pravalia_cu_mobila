@@ -102,9 +102,6 @@ echo '</div>'; // end the row
 ?>
 
 
-<?php include 'footer.php'; ?>
-
 </body>
-
-</body>
+		<?php include 'footer.php'; ?>
 </html>
