@@ -7,10 +7,6 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 100%;
-}
-
 body {
   font-family: "Rubik", sans-serif;
   margin: 0;
