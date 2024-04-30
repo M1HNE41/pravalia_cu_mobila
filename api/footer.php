@@ -162,20 +162,25 @@ ul {
 <footer class="footer" id="main-footer">  
   <ul class="footer__nav">
     <li class="nav__item">
-      <h2 class="nav__title">Media</h2>
+      <h2 class="nav__title">Mobila</h2>
 
       <ul class="nav__ul">
         <li>
-          <a href="#" class="bottom-line">Online</a>
+          <a href="/mobila-dormitor" class="bottom-line">Mobila Dormitor</a>
         </li>
 
         <li>
-          <a href="#">Print</a>
+          <a href="/mobila-living" class="bottom-line">Mobila Living</a>
         </li>
             
         <li>
-          <a href="#">Alternative Ads</a>
+          <a href="/accesorii-bucatarie" class="bottom-line">Accesorii Bucatarie</a>
         </li>
+	      
+	<li>
+          <a href="/baie" class="bottom-line">Accesorii Baie</a>
+        </li>
+	      
       </ul>
     </li>
     
