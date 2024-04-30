@@ -20,7 +20,6 @@ body {
 }
 
 #main-footer {
-  position:absolute;
   margin-top: auto;
   bottom: 0;
   left:0;
