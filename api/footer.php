@@ -20,11 +20,13 @@ body {
 }
 
 #main-footer {
+  position:absolute;
   margin-top: auto;
   bottom: 0;
   left:0;
   right: 0;
-  display: none;
+  width:100%
+  display: flex;
   flex-flow: row wrap;
   padding: 30px 30px 20px 30px;
   color: #2f2f2f;
