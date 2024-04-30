@@ -17,8 +17,14 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+	    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+            animation: animate-bg 0.92s infinite linear;
         }
-
+	@keyframes  animate-bg {
+	  100% {
+	    background-position: 50px 50px;
+	  }
+	}
         .about-section {
             background-color: #fff;
             border-radius: 8px;
@@ -57,11 +63,11 @@
     </style>
 </head>
 <body>
-	<div class="info">
-	<?php include 'struct.php';
+<?php include 'struct.php';
 $dbconn = pg_connect("host=aws-0-eu-central-1.pooler.supabase.com port=5432 dbname=postgres user=postgres.piasuguypoushrpezbmu password=~2T-Ee7t#~PLPa6")
 or die('Could not connect: ' . pg_last_error());
 ?>
+<div class="info">
     <div class="about-section">
         <h2>Despre Noi</h2>
         <p>Pravalia cu Mobila este o destinație de încredere pentru soluțiile tale de mobilier și amenajare interioară. Ne străduim să oferim o gamă variată de produse de calitate și servicii personalizate pentru clienții noștri.</p>
