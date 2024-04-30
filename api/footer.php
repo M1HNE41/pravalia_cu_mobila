@@ -189,22 +189,22 @@ ul {
       
       <ul class="nav__ul">
         <li>
-          <a href="#">Privacy Policy</a>
+          <a href="/mobila-dormitor" class="bottom-line">Informatii</a>
         </li>
         
         <li>
-          <a href="#">Terms of Use</a>
+          <a href="/mobila-dormitor" class="bottom-line">Servicii</a>
         </li>
         
         <li>
-          <a href="#" class="c-link">Sitemap</a>
+          <a href="/mobila-dormitor" class="bottom-line">Scurt istoric</a>
         </li>
       </ul>
     </li>
   </ul>
   
   <div class="legal">
-    <p>&copy; 2024 Pravalia cu mobila. All rights reserved.</p>
+    <p>&copy; <script>document.write(new Date().getFullYear());</script> Pravalia cu mobila. All rights reserved.</p>
     
 
   </div>
