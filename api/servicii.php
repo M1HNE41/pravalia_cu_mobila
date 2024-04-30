@@ -13,8 +13,14 @@
             background-color: #f6f6f6;
             color: #333;
             margin: 0;
+            background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+            animation: animate-bg 0.92s infinite linear;
         }
-
+    @keyframes  animate-bg {
+    	  100% {
+    	    background-position: 50px 50px;
+    	  }
+    	}
         /* Container styles */
         .container {
             max-width: 800px;
