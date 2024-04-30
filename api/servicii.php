@@ -6,14 +6,8 @@
     <title>Servicii</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
-        /* Reset default styles */
-        body, h1, h2, h3, p, ul, li {
-            margin: 0;
-            padding: 0;
-        }
-
         /* Basic styles */
-        body {
+        .servicii {
             font-family: 'Poppins', sans-serif;
             line-height: 1.6;
             background-color: #f6f6f6;
@@ -63,6 +57,11 @@
     </style>
 </head>
 <body>
+    <?php include 'struct.php';
+$dbconn = pg_connect("host=aws-0-eu-central-1.pooler.supabase.com port=5432 dbname=postgres user=postgres.piasuguypoushrpezbmu password=~2T-Ee7t#~PLPa6")
+or die('Could not connect: ' . pg_last_error());
+?>
+    <div class="servicii">
     <div class="container">
         <div class="service">
             <h2>Design de Mobilier Personalizat</h2>
@@ -85,5 +84,7 @@
             <p>La Pravalia cu Mobila, satisfactia clientilor este prioritatea noastra principala. Echipa noastra dedicata de asistenta este disponibila pentru a va ajuta in fiecare pas al drumului, de la raspunsurile la intrebarile despre produsele noastre pana la rezolvarea oricaror probleme care pot aparea.</p>
         </div>
     </div>
+    </div>
 </body>
+<?php include 'footer.php'; ?>
 </html>
