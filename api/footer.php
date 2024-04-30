@@ -188,11 +188,11 @@ ul {
       
       <ul class="nav__ul">
         <li>
-          <a href="/mobila-dormitor" class="bottom-line">Informatii</a>
+          <a href="/info" class="bottom-line">Informatii</a>
         </li>
         
         <li>
-          <a href="/mobila-dormitor" class="bottom-line">Servicii</a>
+          <a href="/servicii" class="bottom-line">Servicii</a>
         </li>
         
         <li>
