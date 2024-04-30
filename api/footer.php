@@ -25,7 +25,7 @@ body {
   left:0;
   right: 0;
   width: 100%
-  display: none;
+  display: flex;
   flex-flow: row wrap;
   padding: 30px 30px 20px 30px;
   color: #2f2f2f;
