@@ -28,7 +28,9 @@ body {
   padding: 30px 30px 20px 30px;
   color: #2f2f2f;
   background-color: #fff;
+  padding: 20px;
   border-top: 1px solid #e5e5e5;
+  z-index: 1;
 }
 
 .footer > * {
