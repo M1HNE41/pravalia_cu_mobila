@@ -300,10 +300,10 @@ body {
       <div></div>
     </figure>
 </div>
-    <?php
-include 'footer.php';
-?>
 </body>
     </div>
   </div>
 </html>
+    <?php
+include 'footer.php';
+?>
