@@ -143,7 +143,7 @@ body, header {
         </a>
         <nav class="menu">
             <div class="dropdown">
-                <a href="#" class="dropdown-btn">Mobila</a>
+                <a class="dropdown-btn">Mobila</a>
                 <div class="dropdown-content">
                     <a href="/mobila-dormitor" >Mobila Dormitor</a>
                     <a href="/mobila-living">Mobila Living</a>
@@ -151,7 +151,7 @@ body, header {
                     <a href="/baie">Accesorii Baie</a>
                 </div>
             </div>
-  	    <a class="bottom-line"> Informatii</a>
+  	    <a href="/info" class="bottom-line"> Informatii</a>
  	      <a class="bottom-line">  Servicii</a>
   	    <a class="bottom-line"> Scurt istoric</a>
 <?php
