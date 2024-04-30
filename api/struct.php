@@ -267,6 +267,19 @@ function ipToConcatenatedString($ip) {
   window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
 </script>
 <script defer src="/_vercel/speed-insights/script.js"></script>
+  window.addEventListener('scroll', function() {
+    var scrollPosition = window.scrollY;
+    var windowHeight = window.innerHeight;
+    var bodyHeight = document.body.offsetHeight;
+
+    // Verificăm dacă utilizatorul a ajuns la sfârșitul conținutului
+    if ((scrollPosition + windowHeight) >= bodyHeight) {
+        document.getElementById('footer').style.display = 'block';
+    } else {
+        document.getElementById('footer').style.display = 'none';
+    }
+});
+
 </body>
 </html>
 
