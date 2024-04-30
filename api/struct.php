@@ -233,15 +233,13 @@ function ipToConcatenatedString($ip) {
   <?php
    function generateCard($imgUrl, $title, $price, $description, $dimensions) {
     echo "
-  <div class='card card-item lg:w display: inline-block'>
-    <div class='bg-white shadow-xl rounded-lg overflow-hidden'>
-        <div class='bg-cover bg-center h-56 p-4' style='background-image: url($imgUrl); background-size: contain; background-position: center; background-color: white;'>
+ <div class='card card-item lg:w display: inline-block bg-white shadow-xl rounded-lg overflow-hidden'>
+    <div class='p-4'>
+        <div class='bg-cover bg-center h-56' style='background-image: url($imgUrl); background-size: contain; background-position: center;'>
         </div>
-        <div class='p-4'>
-            <p class='uppercase tracking-wide text-sm font-bold text-gray-700'>$title</p>
-            <p class='text-3xl text-gray-900'>$$price</p>
-            <p class='text-gray-700'>$description</p>
-        </div>
+        <p class='uppercase tracking-wide text-sm font-bold text-gray-700'>$title</p>
+        <p class='text-3xl text-gray-900'>$$price</p>
+        <p class='text-gray-700'>$description</p>
         <div class='flex p-4 border-t border-gray-300 text-gray-700'>
             <div class='flex-1 inline-flex items-center'>
                 <p><span class='text-gray-900 font-bold'>$dimensions</span> Dimensions</p>
@@ -249,6 +247,7 @@ function ipToConcatenatedString($ip) {
         </div>
     </div>
 </div>
+
     ";
 }
     ?>
