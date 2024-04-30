@@ -57,11 +57,11 @@
     </style>
 </head>
 <body>
+	<div class="info">
 	<?php include 'struct.php';
 $dbconn = pg_connect("host=aws-0-eu-central-1.pooler.supabase.com port=5432 dbname=postgres user=postgres.piasuguypoushrpezbmu password=~2T-Ee7t#~PLPa6")
 or die('Could not connect: ' . pg_last_error());
 ?>
-<div class="info">
     <div class="about-section">
         <h2>Despre Noi</h2>
         <p>Pravalia cu Mobila este o destinație de încredere pentru soluțiile tale de mobilier și amenajare interioară. Ne străduim să oferim o gamă variată de produse de calitate și servicii personalizate pentru clienții noștri.</p>
