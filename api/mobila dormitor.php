@@ -11,27 +11,6 @@ or die('Could not connect: ' . pg_last_error());
 	<b>Dormitor</b>
 </h1>
 </center>
-
-<hr color="grey"  width="auto" >
-<div class="gallery">
-  <img class="card-img-top" src="Poze produse\Dormitor1.jpg">
-  
-</div>
-
-<div class="gallery">
-  <img class="card-img-top" src="Poze produse\Dormitor2.jpg">
-  
-</div>
-
-<div class="gallery">
-  <img class="card-img-top" src="Poze produse\Dormitor3.jpg">
-  
-</div>
-
-<div class="gallery">
-  <img class="card-img-top" src="Poze produse\Dormitor4.jpg">
-  
-</div>
 <hr color="black"  width="1900px" >
 <br>
 <br>
