@@ -275,9 +275,9 @@ function ipToConcatenatedString($ip) {
 
     // Verificăm dacă utilizatorul a ajuns la sfârșitul conținutului
     if ((scrollPosition + windowHeight) >= bodyHeight) {
-        document.getElementById('footer').style.display = 'block';
+        document.getElementById('main-footer').style.display = 'block';
     } else {
-        document.getElementById('footer').style.display = 'none';
+        document.getElementById('main-footer').style.display = 'none';
     }
 });
 </script>
