@@ -12,47 +12,8 @@ or die('Could not connect: ' . pg_last_error());
 </h1>
 </center>
 
-<p>
-Magazinul nostru va oferă o gamă extinsă de mobilă pentru dormitor, paturi continentale,cearșafuri cu elastic, antialergice, dulapuri, noptiere şi dispune de un sortiment bogat care să se potrivească modului în care dormi, totul la preţuri convenabile.
-</p>
-<hr color="grey"  width="auto" >
-<div class="gallery">
-  <img class="card-img-top" src="Poze produse\Dormitor1.jpg">
-  
-</div>
 
-<div class="gallery">
-  <img class="card-img-top" src="Poze produse\Dormitor2.jpg">
-  
-</div>
-
-<div class="gallery">
-  <img class="card-img-top" src="Poze produse\Dormitor3.jpg">
-  
-</div>
-
-<div class="gallery">
-  <img class="card-img-top" src="Poze produse\Dormitor4.jpg">
-  
-</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<hr color="black"  width="1900px" >
-<br>
-<br>
+<hr color="black"  width="auto" >
 <center>
 <h3 >PATURI ȘI CADRE DE PAT REZISTENTE</h3>
 </center>
