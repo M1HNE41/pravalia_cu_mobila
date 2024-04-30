@@ -26,7 +26,6 @@ body {
 .footer {
   position: relative;
   bottom: 0;
-  width: 100%;
   display: flex;
   flex-flow: row wrap;
   padding: 30px 30px 20px 30px;
