@@ -20,7 +20,8 @@ body {
 }
 
 #main-footer {
-  position: absolute;
+  /* position: absolute; Remove this line */
+  margin-top: auto; /* Add this line */
   bottom: 0;
   left:0;
   right: 0;
