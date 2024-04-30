@@ -153,7 +153,7 @@ body, header {
             </div>
   	    <a href="/info" class="bottom-line"> Informatii</a>
  	      <a href="/servicii" class="bottom-line"> Servicii</a>
-  	    <a class="bottom-line"> Scurt istoric</a>
+  	    <a href="/istoric" class="bottom-line"> Scurt istoric</a>
 <?php
 $dbconn = pg_connect("host=aws-0-eu-central-1.pooler.supabase.com port=5432 dbname=postgres user=postgres.piasuguypoushrpezbmu password=~2T-Ee7t#~PLPa6")
 or die('Could not connect: ' . pg_last_error());
