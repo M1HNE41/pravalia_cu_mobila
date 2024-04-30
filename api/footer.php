@@ -158,7 +158,7 @@ ul {
 	</style>
 </head>
 <body>
-<footer class="footer">  
+<footer class="footer" id="main-footer">  
   <ul class="footer__nav">
     <li class="nav__item">
       <h2 class="nav__title">Media</h2>
