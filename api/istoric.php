@@ -6,22 +6,22 @@
     <title>Istoric</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
-        /* Resetare stiluri implicite */
-        body, h1, h2, h3, p, ul, li {
-            margin: 0;
-            padding: 0;
-        }
-
         /* Stiluri de bază */
-        body {
+        .istoric {
             font-family: 'Poppins', sans-serif;
             line-height: 1.6;
             background-color: #f6f6f6;
             color: #333;
             margin: 0;
             padding: 20px;
+            background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+            animation: animate-bg 0.92s infinite linear;
         }
-
+        @keyframes  animate-bg {
+        	  100% {
+        	    background-position: 50px 50px;
+        	  }
+        	}
         .container {
             max-width: 800px;
             margin: 0 auto;
@@ -61,6 +61,12 @@
     </style>
 </head>
 <body>
+    <?php
+        include 'struct.php';
+        $dbconn = pg_connect("host=aws-0-eu-central-1.pooler.supabase.com port=5432 dbname=postgres user=postgres.piasuguypoushrpezbmu password=~2T-Ee7t#~PLPa6")
+        or die('Could not connect: ' . pg_last_error());
+    ?>
+    <div class="istoric">
     <div class="container">
         <div class="history">
             <h2>Istoricul Companiei</h2>
@@ -69,5 +75,7 @@
             <p>Cu fiecare proiect finalizat, aducem bucurie și confort în casele oamenilor, iar asta ne motivează să continuăm să excelăm și să ne dezvoltăm în fiecare zi.</p>
         </div>
     </div>
+    </div>
 </body>
+    <?php include 'footer.php'; ?>
 </html>
