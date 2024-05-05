@@ -98,11 +98,6 @@ for ($i = 0; $i < 2; $i++) { // generate 2 rows
 }
 echo '</div>'; // end the row
 ?>
-
-
+</body>
 <?php include 'footer.php'; ?>
-
-</body>
-
-</body>
 </html>
