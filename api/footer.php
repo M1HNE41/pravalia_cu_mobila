@@ -1,7 +1,7 @@
 <!DOCTYPE html>
+<?php include 'footer-css.php';?>
 <html>
 <head>
-<?php include 'footer-css.php';?>
 	<style type="">
 		@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&family=Rubik:wght@400;500;700&display=swap");
 		*, *:before, *:after {
