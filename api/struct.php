@@ -7,7 +7,7 @@
 </script>
 <script defer src="/_vercel/insights/script.js"></script>
   <style>
-body, header {
+html {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #ffffff;
