@@ -77,9 +77,7 @@ for ($i = 0; $i < 2; $i++) { // generate 2 rows
     echo '<div style="flex-basis: 100%; height: 0;"></div>'; // this will force wrapping to the next line
 }
 echo '</div>'; // end the row
-include 'footer.php'; ?>
-
+?>
 </body>
-
-</body>
+<?php include 'footer.php'; ?>
 </html>
