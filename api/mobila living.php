@@ -11,7 +11,9 @@ or die('Could not connect: ' . pg_last_error());
 	<b>Dormitor</b>
 </h1>
 </center>
-<hr color="black"  width="1900px" >
+
+
+<hr color="black"  width="auto" >
 <center>
 <h3 >PATURI ȘI CADRE DE PAT REZISTENTE</h3>
 </center>
@@ -98,6 +100,8 @@ for ($i = 0; $i < 2; $i++) { // generate 2 rows
 }
 echo '</div>'; // end the row
 ?>
+
+
 </body>
-<?php include 'footer.php'; ?>
+		<?php include 'footer.php'; ?>
 </html>
