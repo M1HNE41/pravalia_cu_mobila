@@ -11,7 +11,9 @@ or die('Could not connect: ' . pg_last_error());
 	<b>Dormitor</b>
 </h1>
 </center>
-<hr color="black"  width="1900px" >
+
+
+<hr color="black"  width="auto" >
 <center>
 <h3 >PATURI ȘI CADRE DE PAT REZISTENTE</h3>
 </center>
@@ -52,12 +54,14 @@ for ($i = 0; $i < 2; $i++) { // generate 2 rows
     echo '<div style="flex-basis: 100%; height: 0;"></div>'; // this will force wrapping to the next line
 }
 echo '</div>'; // end the row
-
-
 ?>
+</div>
 <center>
-<h3 >Cuverturi</h3>
+	<bold>
+	<h3> Cearșafuri </h3>
+	<bold>
 </center>
+<hr color="black"  width="auto" >
 
 <?php
 echo '<div class="flex flex-wrap justify-between mx-auto space-x-4" style="max-width: 1200px;">'; // start a new row
@@ -75,6 +79,29 @@ for ($i = 0; $i < 2; $i++) { // generate 2 rows
 }
 echo '</div>'; // end the row
 ?>
+<center>
+	<bold>
+		<h3> Dulapuri din lemn masiv </h3>
+	</bold>	
+</center>
+<?php
+echo '<div class="flex flex-wrap justify-between mx-auto space-x-4" style="max-width: 1200px;">'; // start a new row
+for ($i = 0; $i < 2; $i++) { // generate 2 rows
+    for ($j = 0; $j < 3; $j++) { // generate 3 cards in each row
+        echo '<div style ="width: 30%; margin-bottom: 20px">';
+        $productNumber++;
+        $sql = "SELECT * FROM products WHERE id = '$productNumber'";
+        $result = pg_query($dbconn, $sql);
+        $product = pg_fetch_assoc($result);
+        generateCard($product['image_url'], $product['name'], $product['price'], $product['description'], $product['dimensions']);
+        echo'</div>';
+    }
+    echo '<div style="flex-basis: 100%; height: 0;"></div>'; // this will force wrapping to the next line
+}
+echo '</div>'; // end the row
+?>
+
+
 </body>
-<?php include 'footer.php'; ?>
+		<?php include 'footer.php'; ?>
 </html>
