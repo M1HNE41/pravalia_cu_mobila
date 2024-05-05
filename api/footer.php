@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+<?php include 'footer-css.php';?>
 	<style type="">
 		@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&family=Rubik:wght@400;500;700&display=swap");
 		*, *:before, *:after {
   box-sizing: border-box;
 }
 
-body {
+/*body {
   font-family: "Rubik", sans-serif;
   margin: 0;
   display: grid;
@@ -155,6 +156,7 @@ ul {
     flex: 2 0px;
   }
 }
+		*/
 	</style>
 </head>
 <body>
