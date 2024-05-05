@@ -13,8 +13,6 @@ or die('Could not connect: ' . pg_last_error());
 </h1>
 </center>
 <hr color="black"  width="1900px" >
-<br>
-<br>
 <center>
 <h3 >PATURI ȘI CADRE DE PAT REZISTENTE</h3>
 </center>
