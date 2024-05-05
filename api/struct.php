@@ -7,7 +7,7 @@
 </script>
 <script defer src="/_vercel/insights/script.js"></script>
   <style>
-body, header {
+/*body, header {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #ffffff;
@@ -119,7 +119,8 @@ body, header {
 
 .vertical-menu2 a:hover {
   background-color: transparent;
-}    </style>
+}    
+  */</style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pravalia cu mobila</title>
