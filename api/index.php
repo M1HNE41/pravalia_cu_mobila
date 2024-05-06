@@ -1,6 +1,6 @@
 <?php
-include 'style/index-css.php';
 session_start();
+include 'style/index-css.php';
 include 'struct.php';
 ?>
 <!DOCTYPE html>
