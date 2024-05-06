@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php include 'footer-css.php';?>
+<?php include '/style/footer-css.php';?>
 <html>
 <head>
 	<style type="">
