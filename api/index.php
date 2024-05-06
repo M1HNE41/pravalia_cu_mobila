@@ -19,7 +19,7 @@ include 'struct.php';
     </figure>
 
     <figure style ="margin-bottom: 20px">
-      <img src="https://piasuguypoushrpezbmu.supabase.co/storage/v1/object/sign/products/index/Living.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9kdWN0cy9pbmRleC9MaXZpbmcuanBnIiwiaWF0IjoxNzA4NjQwO<!© 2024 Petcu Mihnea – –>DAzLCJleHAiOjMxNTUyNzcxMDQ4MDN9.MoNYrDS6s84nJ6J-CLK8Lla8wCFjTRvt6W1fCl2qoDA&t=2024-02-22T22%3A26%3A44.500Z" alt="Living" onclick="window.location.href='/mobila-living';" ontouchstart="window.location.href='/mobila-living';">
+      <img src="https://piasuguypoushrpezbmu.supabase.co/storage/v1/object/sign/products/index/Living.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9kdWN0cy9pbmRleC9MaXZpbmcuanBnIiwiaWF0IjoxNzA4NjQwODAzLCJleHAiOjMxNTUyNzcxMDQ4MDN9.MoNYrDS6s84nJ6J-CLK8Lla8wCFjTRvt6W1fCl2qoDA&t=2024-02-22T22%3A26%3A44.500Z" alt="Living" onclick="window.location.href='/mobila-living';" ontouchstart="window.location.href='/mobila-living';">
       <figcaption>Living</figcaption>
     </figure>
     <div style="flex-basis: 100%; height: 0;"></div> <!-- this will force wrapping to the next line -->
