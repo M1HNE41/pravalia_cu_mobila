@@ -34,7 +34,7 @@ if (isset($_POST['save'])) {
     // Authenticate the user
     $sql = "SELECT * FROM users WHERE username = '$newUsername' AND password = '$newPassword'";
     $stmt = pg_prepare($dbconn, "auth_query", $sql);
-    $params = array($username, $password);
+    $params = array($newUsername, $newPassword);
     $result = pg_execute($dbconn, "auth_query", $params);
 
     if (pg_num_rows($result) > 0) {
