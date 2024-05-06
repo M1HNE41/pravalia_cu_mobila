@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-  <?php include 'struct-css.php';?>
+  <?php include 'style/struct-css.php';?>
   <script>
   window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
 </script>
