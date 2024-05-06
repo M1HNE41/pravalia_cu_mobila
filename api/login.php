@@ -31,11 +31,13 @@ if (isset($_POST['save'])) {
     $newUsername = $_POST['username'];
     $newPassword = $_POST['password'];
 
-    // Authenticate the user
-    $sql = "SELECT * FROM users WHERE username = '$newUsername' AND password = '$newPassword'";
+    // Prepare SQL statement
+    $sql = "SELECT * FROM users WHERE username = $1 AND password = $2";
     $stmt = pg_prepare($dbconn, "auth_query", $sql);
-    $params = array($newUsername, $newPassword);
-    $result = pg_execute($dbconn, "auth_query", $params);
+
+    // Execute prepared statement with user inputs as parameters
+    $result = pg_execute($dbconn, "auth_query", array($newUsername, $newPassword));
+
 
     if (pg_num_rows($result) > 0) {
         // Authentication successful
