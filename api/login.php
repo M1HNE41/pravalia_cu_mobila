@@ -28,8 +28,8 @@ function ipToConcatenatedString($ip) {
 }
 
 if (isset($_POST['save'])) {
-    $newUsername = pg_escape_string($_POST['username']);
-    $newPassword = pg_escape_string($_POST['password']);
+    $newUsername = $_POST['username'];
+    $newPassword = $_POST['password'];
 
 
     // Prepare SQL statement
