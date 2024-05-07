@@ -64,7 +64,11 @@ if (isset($_POST['save'])) {
             // Handle error
             echo "Error updating PostgreSQL row: " . pg_last_error($dbconn);
         }
-    } 
+    }
+    else{
+        echo "Invalid username or password";
+    }
+        
 }
 ?>
 
