@@ -64,19 +64,7 @@ if (isset($_POST['save'])) {
             // Handle error
             echo "Error updating PostgreSQL row: " . pg_last_error($dbconn);
         }
-    } else {
-        $updateFailedSql = "UPDATE sessions SET is_active = false, user_id = null WHERE session_id = '$sessionId'";
-        // Authentication failed
-        $updateFailedResult = pg_query($dbconn, $updateFailedSql);
-    }
-    if ($updateFailedResult) {
-            // Row updated successfully
-
-            echo "Invalid username or password";
-        } else {
-            // Handle error
-            echo "Error updating PostgreSQL row: " . pg_last_error($dbconn);
-        }
+    } 
 }
 ?>
 
