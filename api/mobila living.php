@@ -7,9 +7,7 @@ or die('Could not connect: ' . pg_last_error());
 ?>
 <div style="clear:both;"> </div>
 <center>
-	<h1>
 	<b>Living</b>
-</h1>
 </center>
 
 
