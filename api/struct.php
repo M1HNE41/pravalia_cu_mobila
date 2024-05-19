@@ -126,7 +126,7 @@ function ipToConcatenatedString($ip) {
         </div>
         <div class='p-4'>
             <p class='uppercase tracking-wide text-sm font-bold text-gray-700'>$title</p>
-            <p class='text-gray-900'>$$price</p>
+            <p class='text-3xl text-gray-900'>RON $price</p>
             <p class='text-gray-700'>$description</p>
         </div>
         <div class='flex p-4 border-t border-gray-300 text-gray-700'>
