@@ -122,11 +122,11 @@ function ipToConcatenatedString($ip) {
     echo "
 <div class='card card-item lg:w display: inline-block'>
         <div class='bg-white shadow-xl rounded-lg overflow-hidden'>
-            <div style="width: 100%;
+            <div style='width: 100%;
   position: absolute;
   left: 0;
   top: 0;
-  opacity: 0;">
+  opacity: 0;'>
             <div class='bg-cover bg-center h-56 p-4' style='background-image: url($imgUrl)'>
             </div>
             </div>
