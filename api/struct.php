@@ -131,7 +131,7 @@ function ipToConcatenatedString($ip) {
         </div>
         <div class='flex p-4 border-t border-gray-300 text-gray-700'>
             <div class='flex-1 inline-flex items-center'>
-                <p>Dimensiuni <span class='text-gray-900 font-bold'>$dimensions</span></p>
+                <p font-bold>Dimensiuni <span class='text-gray-900 '>$dimensions</span></p>
             </div>
         </div>
     </div>
