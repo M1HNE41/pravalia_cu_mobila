@@ -125,8 +125,7 @@ function ipToConcatenatedString($ip) {
             <div style='width: 100%;
   position: absolute;
   left: 0;
-  top: 0;
-  opacity: 0;'>
+  top: 0;'>
             <div class='bg-cover bg-center h-56 p-4' style='background-image: url($imgUrl)'>
             </div>
             </div>
