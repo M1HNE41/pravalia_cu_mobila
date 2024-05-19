@@ -8,14 +8,14 @@ or die('Could not connect: ' . pg_last_error());
 <div style="clear:both;"> </div>
 <center>
 	<h1>
-	<b>Dormitor</b>
+	<b>Living</b>
 </h1>
 </center>
 
 
 <hr color="black"  width="auto" >
 <center>
-<h3 >PATURI ȘI CADRE DE PAT REZISTENTE</h3>
+<h3 >Canapele</h3>
 </center>
 
 <?php
@@ -36,7 +36,7 @@ for ($i = 0; $i < 2; $i++) { // generate 2 rows
 echo '</div>'; // end the row
 ?>
 <center>
-<h3 >Cuverturi</h3>
+<h3 >Comoda TV</h3>
 </center>
 
 <?php
@@ -58,7 +58,7 @@ echo '</div>'; // end the row
 </div>
 <center>
 	<bold>
-	<h3> Cearșafuri </h3>
+	<h3>Fotolii</h3>
 	<bold>
 </center>
 <hr color="black"  width="auto" >
@@ -81,7 +81,7 @@ echo '</div>'; // end the row
 ?>
 <center>
 	<bold>
-		<h3> Dulapuri din lemn masiv </h3>
+		<h3>Masute</h3>
 	</bold>	
 </center>
 <?php
