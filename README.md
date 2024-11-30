@@ -19,7 +19,7 @@ MAY, 2024
 
 1.  **Choosing the theme**
 2.  **Applications and software used**
-    1.  **Supabase, Vercel is Github**
+    1.  **Supabase, Vercel and Github**
     2.  **HTML, CSS and PHP**
 3.  **Presentation of the project**
 4.  **Bibliography**
