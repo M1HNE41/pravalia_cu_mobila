@@ -1,6 +1,8 @@
 COLEGIUL NAȚIONAL “ELENA CUZA”
 
 **PROIECT PENTRU ATESTAT LA INFORMATICĂ**
+![image](https://github.com/user-attachments/assets/97349551-7abc-4092-a320-fa52dceeb259)
+![image](https://github.com/user-attachments/assets/df43a805-fb6d-4807-b061-6bb2ced98930)
 
 **SITE WEB - PRĂVĂLIA CU MOBILĂ**
 
@@ -183,7 +185,7 @@ Paginile dedicate produselor: Aceste pagini conțin câte un card pentru fiecare
 
 Paginile legate de contul de utilizator (Login și Sign up): Există două pagini pentru gestionarea contului de utilizator. Pe pagina de Sign up, utilizatorii pot completa șase câmpuri cu datele necesare pentru crearea unui cont. Aceste date sunt apoi trimise în baza de date, iar utilizatorii pot alege să se conecteze sau să se întoarcă la pagina principală. Pe pagina de Login, utilizatorii trebuie să introducă username-ul și parola. Procesul de login presupune interogarea bazei de date pentru verificarea datelor, iar în cazul în care acestea sunt corecte, se creează o sesiune în baza de date pentru utilizator.
 
-![](media/75ec3af01a289227a6d25617196ba1a6.png)![](media/0a6589c8fb1f2059afe47d3e1affbf22.png)
+![image](https://github.com/user-attachments/assets/16e7bcfd-4b75-48c8-ad85-5975d168d466)
 
 **Crearea și gestionarea sesiunilor utilizatorilor**
 
@@ -194,6 +196,7 @@ Identificarea sesiunilor
 Pentru a identifica un utilizator și a-i gestiona sesiunea, folosim adresa IP a clientului. Aceasta este obținută prin funcția get_client_ip() și este apoi procesată pentru a elimina punctele și a obține un identificator unic al sesiunii. Această abordare ne permite să identificăm fiecare sesiune în mod unic și să gestionăm accesul utilizatorilor în aplicație.
 
 **Crearea sesiunilor**
+![image](https://github.com/user-attachments/assets/0bda809f-c5c9-41c8-990d-b6b826af068d)
 
 Atunci când un utilizator se autentifică cu succes, o înregistrare nouă este inserată în tabela sessions a bazei de date. Această înregistrare conține ID-ul utilizatorului și identificatorul unic al sesiunii, indicând faptul că utilizatorul este autentificat și sesiunea este activă.
 
@@ -254,13 +257,15 @@ exit();
 
 ?\>
 
-![](media/9c38900e71171f898b52aed7caf34fa5.png)
+![image](https://github.com/user-attachments/assets/c1187e2c-cba1-4093-944b-28b865326a6f)
+
 
 Baza de date: Schema bazei de date include trei tabele: user, products și sessions. Tabela user conține informații despre utilizatori, tabela products stochează informații despre fiecare produs, iar tabela sessions gestionează sesiunile de utilizator.
 
-![](media/cea013abf8e20ba417d9d61c273c55a5.png)
+![image](https://github.com/user-attachments/assets/40f5dfdf-899e-4305-acb5-fc974f4eca55)
 
-![](media/143cc3dffa2165033bbd90d1e5b56186.png)
+
+
 
 Conexiunea între site și server este crucială pentru funcționarea corectă a aplicației mele. În acest caz, site-ul meu este hostat pe Vercel și baza de date este pe Supabase.
 
@@ -348,7 +353,8 @@ Rezultatul acestui test a fost că am putut accesa cu succes un cont din baza de
 
 Prin implementarea acestor măsuri de securitate, mă asigur că aplicația mea este protejată împotriva atacurilor de injecție SQL și că datele utilizatorilor sunt tratate în mod sigur și corect.
 
-![](media/a487380bba17b7ff3a1ff50f17813b22.png)
+![image](https://github.com/user-attachments/assets/924d4bc6-43d1-4eaa-8e71-962f19b4db19)
+
 
 **Sistemul de Date Analitice Vercel:**
 
@@ -358,11 +364,13 @@ Principalele caracteristici ale sistemului de date analitice Vercel includ:
 
 Monitorizarea traficului: Vercel oferă informații detaliate despre traficul site-ului, inclusiv numărul de vizitatori, pagini vizitate, ședințe și alte aspecte relevante.
 
-![](media/c05858927458b0781323f4b562675307.png)
+![image](https://github.com/user-attachments/assets/49b71c2a-791e-4795-bc6d-b9f7cc408a97)
+
 
 Analiza performanței: Prin intermediul sistemului de date analitice, putem evalua performanța site-ului în timp real sau în perioade prestabilite. Acest lucru include metrici precum timpul de încărcare al paginilor, timpul de răspuns al serverului și altele.
 
-![](media/9b39b5092d5b5f34f912a14dfba9f7e5.png)
+![image](https://github.com/user-attachments/assets/be39dcdc-8920-4aa3-8052-36bb49bec273)
+
 
 Segmentarea utilizatorilor: Putem segmenta utilizatorii în funcție de diferite criterii, precum locația geografică, dispozitivul folosit sau alte atribute relevante. Această funcționalitate permite personalizarea și îmbunătățirea experienței utilizatorului în funcție de nevoile și preferințele acestora.
 
@@ -378,25 +386,29 @@ Viteza de încărcare a paginilor:
 
 Speed Insights evaluează timpul necesar pentru încărcarea completă a paginilor site-ului meu web. Viteza optimă de încărcare este crucială pentru menținerea angajamentului utilizatorilor și reducerea ratei de abandon a paginilor.
 
-![](media/2c3f1131d1536a322f03434cfd60a1f2.png)
+![image](https://github.com/user-attachments/assets/2293684a-7fb7-4469-b4ea-050bd69f213a)
+
 
 Optimizarea elementelor media: Analiza Speed Insights include evaluarea și recomandări pentru optimizarea imaginilor, videoclipurilor și altor elemente media pentru a reduce timpul de încărcare al paginilor.
 
-![](media/ae96e2aa5a0e619cdf4f8eefe515b687.png)
+![image](https://github.com/user-attachments/assets/b7f9f1eb-1d82-497e-8fef-6b90a099c1f5)
+
 
 Compatibilitate cu dispozitivele mobile: Evaluarea performanței site-ului pe dispozitive mobile este un aspect crucial al categoriei Speed Insights, având în vedere creșterea utilizării mobile în rândul utilizatorilor. Un site web optimizat pentru dispozitivele mobile are un timp de încărcare rapid și o experiență fluidă de navigare.
 
 Caching și comprimare: Categoria Cache oferă sfaturi și indicații pentru implementarea eficientă a tehnologiilor de caching și comprimare a fișierelor pentru a accelera încărcarea paginilor și a reduce timpul de răspuns al serverului.
 
-![](media/4f62aebdd80001b6b2d40298fa82c2c6.png)
+![image](https://github.com/user-attachments/assets/85880327-daf4-48e6-ab9d-a9be69e9f154)
 
-![](media/f598c619004ec062c4b9a9ecb9abbe0b.png)
+
+![image](https://github.com/user-attachments/assets/a834884b-aaca-4fb7-b032-ea030f0406c0)
 
 Funcții de securitate anti-DDoS
 
 Attack Challenge Mode reprezintă o modalitate de a oferi mai mult control în cazul atacurilor DDoS. Atunci când este activat, toți vizitatorii site-ului vor vedea un test de verificare înainte de a li se permite accesul. Firewall-ul automat al Vercel oprește automat atacurile DDoS a asigura că tot traficul către site este legitim.
 
-![](media/9603e87db714abded56f77de846d5882.png)
+![image](https://github.com/user-attachments/assets/8c9141a8-865b-427f-af8b-150c1c567263)
+
 
 **Bibliografie**
 
