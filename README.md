@@ -12,6 +12,7 @@ Developed by Mihnea Petcu as part of the Informatics Atestat Project.
 - [Database Schema](#database-schema)
 - [Security Measures](#security-measures)
 - [Analytics and Optimization](#analytics-and-optimization)
+- [Accessing Project Images](#accessing-project-images)
 - [Acknowledgments](#acknowledgments)
 
 ---
@@ -112,6 +113,20 @@ Developed by Mihnea Petcu as part of the Informatics Atestat Project.
 
 ### Compatibility
 - Fully responsive design for both desktop and mobile platforms.
+
+---
+
+## Accessing Project Images
+
+All images related to the project (e.g., website screenshots, diagrams) are located in the `images` folder within the repository.
+
+### Example of Images:
+- Screenshot of the main page:
+  ![Main Page](images/image1.png)
+- Screenshot of the user login page:
+  ![Login Page](images/image2.png)
+
+For additional images, check the `images` folder in the repository.
 
 ---
 
