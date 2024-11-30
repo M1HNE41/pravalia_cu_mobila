@@ -1,105 +1,106 @@
-COLEGIUL NAȚIONAL “ELENA CUZA”
+![image](https://github.com/user-attachments/assets/817df45f-906c-40ad-9ac6-950d0948eebd)
+![image](https://github.com/user-attachments/assets/e645230e-ad91-4037-9cff-361b8c428758)
 
-**PROIECT PENTRU ATESTAT LA INFORMATICĂ**
-![image](https://github.com/user-attachments/assets/97349551-7abc-4092-a320-fa52dceeb259)
-![image](https://github.com/user-attachments/assets/df43a805-fb6d-4807-b061-6bb2ced98930)
+"ELENA CUZA" NATIONAL COLLEGE
 
-**SITE WEB - PRĂVĂLIA CU MOBILĂ**
+**PROJECT FOR COMPUTER SCIENCE CERTIFICATION**
+
+**WEBSITE - FURNITURE SHOP**
 
 **(HTML, CSS, PHP, SQL)**
 
-ELEV PROF. COORDONATOR
+PUPIL TEACHER COORDONATOR
 
 PETCU MIHNEA RAVICI-TĂTĂRANU GEORGIANA
 
-MAI, 2024
+MAY, 2024
 
-**CUPRINS**
+**CONTAINED**
 
-1.  **Alegerea temei**[  ](#)**3**
-2.  **Aplicații și software utilizat 4**
-    1.  **Supabase, Vercel si Github 4**
-    2.  **Limbajul HTML, CSS și PHP 5**
-3.  **Prezentarea proiectului 9**
-4.  **Bibliografie 25**
-
-# 
+1.  **Choosing the theme**[  ](#)**3**
+2.  **Applications and software used 4**
+    1.  **Supabase, Vercel is Github 4**
+    2.  **HTML, CSS and PHP 5**
+3.  **Presentation of the project 9**
+4.  **Bibliography 25**
 
 # 
 
-**1. Alegerea temei**
+# 
 
-Tema proiectului meu de atestat la informatica, intitulat "Prăvălia cu Mobilă", a fost selectată cu grijă, având în vedere mai multe aspecte importante.
+**1. Choosing the theme**
 
-Am ales să dezvolt un site web pentru un magazin de mobilă având în vedere următoarele motive:
+The theme of my IT certificate project, entitled "The Furniture Shop", was carefully selected, taking into account several important aspects.
 
-Oportunitate de inovare în domeniu: Observând că domeniul mobilierului nu este atât de dezvoltat online precum alte domenii, am văzut o oportunitate de a aduce inovație și de a îmbunătăți experiența utilizatorilor prin introducerea unor funcționalități noi și utile.
+I chose to develop a website for a furniture store considering the following reasons:
 
-Accesibilitate pentru clienți: Am dorit să creez un mediu online accesibil și ușor de utilizat pentru potențialii cumpărători de mobilă, oferindu-le posibilitatea de a explora și achiziționa produse într-un mod convenabil și plăcut.
+Opportunity for innovation in the field: Noticing that the furniture field is not as developed online as other fields, we saw an opportunity to bring innovation and improve the user experience by introducing new and useful functionalities.
 
-Diversificarea serviciilor: Prin introducerea unor funcționalități precum restaurarea mobilierului, consultanță în design interior și designul de mobilier personalizat, am dorit să ofer clienților o gamă mai largă de opțiuni și servicii valoroase.
+Accessibility for customers: I wanted to create an accessible and user-friendly online environment for potential furniture buyers, giving them the opportunity to explore and purchase products in a convenient and enjoyable way.
 
-Alegerea temei a fost determinată de dorința de a aduce valoare într-un domeniu în care consider că există potențial pentru îmbunătățire și inovare. Site-ul web "Prăvălia cu Mobilă" își propune să ofere o experiență de cumpărare plăcută și eficientă pentru clienții săi, fiind axat pe calitate, accesibilitate și diversitate.
+Diversification of services: By introducing functionalities such as furniture restoration, interior design consultancy, and custom furniture design, I wanted to offer customers a wider range of valuable options and services.
 
-**2. Aplicații și Software Utilizat**
+The choice of theme was driven by the desire to bring value to an area where I believe there is potential for improvement and innovation. The "Furniture Shop" website aims to offer a pleasant and efficient shopping experience for its customers, being focused on quality, accessibility and diversity.
 
-**2.1 Supabase, Vercel si Github**
+**2. Applications and Software Used**
 
-Pentru dezvoltarea și implementarea proiectului "Prăvălia cu Mobila", am utilizat mai multe servicii și platforme online. Trei dintre acestea sunt Supabase, Vercel și Github.
+**2.1 Supabase, Vercel Github**
 
-Supabase.com: Am ales Supabase pentru a gestiona baza de date a proiectului. Supabase este o platformă open-source care oferă servicii de bază de date și autentificare, bazate pe PostgreSQL. Acest serviciu mi-a permis să creez și să gestionez ușor baza de date a magazinului meu online, inclusiv funcționalitățile de autentificare pentru utilizatori.
+For the development and implementation of the "Furniture Shop" project, we used several online services and platforms. Three of these are Supabase, Vercel, and Github.
 
-Vercel.com: Pentru hosting-ul și implementarea site-ului web, am ales Vercel. Vercel este o platformă de hosting pentru aplicații web și site-uri statice, care oferă o gamă largă de instrumente și servicii pentru dezvoltarea și implementarea proiectelor web. Am ales Vercel datorită facilității sale de utilizare, performanței ridicate și scalabilității.
+Supabase.com: We chose Supabase to manage the project database. Supabase is an open-source platform that provides database and authentication services, based on PostgreSQL. This service allowed me to easily create and manage my online store's database, including user authentication functionalities.
 
-Github.com: GitHub este o platformă esențială pentru dezvoltatorii de proiecte software, oferind o gamă largă de servicii și instrumente care facilitează colaborarea, gestionarea codului și urmărirea progresului în cadrul echipelor de dezvoltare. Am folosit GitHub dintr-o varietate de motive, iar unul dintre cele mai relevante pentru mine este capacitatea sa de a găzdui proiecte web. De exemplu, am folosit GitHub în legătură cu platforma Vercel pentru a hosta un site web. Această integrare între GitHub și Vercel permite o gestionare ușoară a codului și un deployment rapid și fiabil al proiectelor web. Astfel, GitHub devine un pilon solid în ecosistemul meu de dezvoltare, oferindu-mi uneltele de care am nevoie pentru a construi și a livra aplicații web de calitate.
+Vercel.com: For website hosting and implementation, we chose Vercel. Vercel is a hosting platform for web applications and static websites, which offers a wide range of tools and services for the development and implementation of web projects. We chose Vercel because of its ease of use, high performance, and scalability.
 
-Aceste platforme au fost fundamentale pentru dezvoltarea și implementarea proiectului meu, asigurându-se că site-ul web este bine hostat și că baza de date este gestionată eficient.
+Github.com: GitHub is an essential platform for software project developers, offering a wide range of services and tools that make it easy to collaborate, manage code, and track progress within development teams. I've used GitHub for a variety of reasons, and one of the most relevant to me is its ability to host web projects. For example, I used GitHub in connection with the Vercel platform to host a website. This integration between GitHub and Vercel allows for easy code management and fast and reliable deployment of web projects. Thus, GitHub becomes a solid pillar in my development ecosystem, giving me the tools I need to build and deliver quality web applications.
 
-**2.2 Limbajul HTML, CSS și PHP**
+These platforms were fundamental to the development and implementation of my project, ensuring that the website is well hosted and that the database is managed efficiently.
 
-HTML (HyperText Markup Language): HTML este limbajul fundamental al web-ului, folosit pentru a structura și formata conținutul paginilor web. În esență, HTML definește scheletul unei pagini web, indicând browserului cum să afișeze diverse elemente, cum ar fi textul, imaginile, link-urile și altele. Cu ajutorul tag-urilor HTML, putem crea structura logică a unei pagini web, inclusiv capul documentului (\<head\>), corpul (\<body\>), secțiuni (\<div\>), titluri (\<h1\>, \<h2\>, etc.) și multe altele. De asemenea, HTML oferă suport pentru formulare (\<form\>), tabele (\<table\>), listele (\<ul\>, \<ol\>) și alte elemente esențiale pentru interacțiunea și prezentarea conținutului.
+**2.2 HTML, CSS and PHP**
 
-Markup Language (Limbaj de marcări):
+HTML (HyperText Markup Language): HTML is the fundamental language of the web, used to structure and format the content of web pages. Essentially, HTML defines the skeleton of a web page, telling the browser how to display various elements, such as text, images, links, and more. With the help of HTML tags, we can create the logical structure of a web page, including the document head (\<head\>), body (\<body\>), sections (\<div\>), headings (\<h1\>, \<h2\>, etc.) and much more. HTML also provides support for forms (\<form\>), tables (\<table\>), lists (\<ul\>, \<ol\>) and other essential elements for the interaction and presentation of content.
 
-HTML este un limbaj de marcări, ceea ce înseamnă că este compus dintr-un set de elemente și tag-uri care sunt utilizate pentru a marca și structura conținutul paginii web. Aceste tag-uri sunt folosite pentru a defini diferite elemente precum titluri, paragrafe, imagini, link-uri etc.
+Markup Language:
 
-Structura de bază:
+HTML is a markup language, which means that it is composed of a set of elements and tags that are used to mark and structure the content of the web page. These tags are used to define different elements such as titles, paragraphs, images, links, etc.
 
-O pagină HTML începe cu un tag de început \<html\> și se încheie cu un tag de sfârșit \</html\>. În interiorul acestui element, se găsesc două secțiuni principale: \<head\> și \<body\>.
+Basic structure:
 
-În secțiunea \<head\> sunt definite informații despre pagină, cum ar fi titlul, legături către fișiere CSS sau JavaScript, metadata etc.
+An HTML page starts with a start tag \<html\> and ends with an end tag \</html\>. Inside this element, there are two main sections: \<head\> and \<body\>.
 
-Secțiunea \<body\> conține conținutul efectiv al paginii, cum ar fi text, imagini, link-uri, formulare etc.
+In the \<head\> section information about the page is defined, such as the title, links to CSS or JavaScript files, metadata, etc.
 
-Elemente și tag-uri:
+The \<body\> section contains the actual content of the page, such as text, images, links, forms, etc.
 
-HTML este construit dintr-un set de elemente și tag-uri. Fiecare element este definit prin intermediul unui tag de început și unul de sfârșit, care delimitează conținutul elementului. De exemplu:
+Elements and tags:
 
-\<p\>Acesta este un paragraf.\</p\>
+HTML is built from a set of elements and tags. Each element is defined by means of a start and end tag, which delimits the content of the element. For example:
 
-Tag-ul \<p\> este tag-ul de început, iar \</p\> este tag-ul de sfârșit al elementului paragraf.
+\<p\>This is a paragraph.\</p\>
 
-Atribute:
+The \<p\> tag is the start tag, and \</p\> is the end tag of the paragraph element.
 
-Multe tag-uri HTML pot avea și atribut, care oferă informații suplimentare despre acel element. De exemplu, tag-ul pentru o imagine (\<img\>) poate include un atribut src care specifică sursa imaginii. Exemplu:
+Attributes:
+
+Many HTML tags can also have an attribute, which provides additional information about that element. For example, the tag for an image (\<img\>) can include an src attribute that specifies the source of the image. Example:
 
 \<img src="image.jpg" alt="Imagine"\>
 
-În acest exemplu, src este atributul care indică sursa imaginii, iar alt oferă un text alternativ care va fi afișat în cazul în care imaginea nu poate fi încărcată.
+In this example, src is the attribute that indicates the source of the image, and alt provides alternative text that will be displayed if the image can't be uploaded.
 
-Structurare și semantica:
+Structuring and semantics:
 
-HTML oferă o gamă largă de tag-uri pentru a structura conținutul într-un mod semnificativ. De exemplu, există tag-uri pentru titluri (\<h1\> până la \<h6\>), paragrafe (\<p\>), liste (\<ul\>, \<ol\>, \<li\>), tabele (\<table\>, \<tr\>, \<td\>), formulare (\<form\>, \<input\>, \<button\>) etc. Utilizarea adecvată a acestor tag-uri ajută la îmbunătățirea accesibilității și SEO-ului paginii.
+HTML offers a wide range of tags to structure content in a meaningful way. For example, there are tags for headings (\<h1\> to \<h6\>), paragraphs (\<p\>), lists (\<ul\>, \<ol\>, \<li\>), tables (\<table\>, \<tr\>, \<td\>), forms (\<form\>, \<input\>, \<button\>), etc. Proper use of these tags helps improve the page's accessibility and SEO.
 
-Compatibilitate cu browserele:
+Browser compatibility:
 
-HTML este un standard recunoscut și acceptat de către majoritatea browserele web moderne. Cu toate acestea, este important să se scrie cod HTML într-un mod care să fie compatibil cu diferitele versiuni de browsere și să respecte standardele web pentru a asigura o afișare corectă și consistentă a paginilor web pe diverse platforme și dispozitive.
+HTML is a standard that is recognized and supported by most modern web browsers. However, it is important to write HTML code in a way that is compatible with different browser versions and complies with web standards to ensure that web pages are displayed correctly and consistently across various platforms and devices.
 
-CSS (Cascading Style Sheets): CSS este un limbaj de stilizare folosit pentru a adăuga aspect și estetică paginilor web create cu HTML. CSS (Cascading Style Sheets) este un limbaj de stilizare folosit pentru a controla aspectul și prezentarea elementelor HTML pe o pagină web. Folosind CSS, putem defini stilurile vizuale pentru diferite elemente HTML, cum ar fi culorile, fonturile, marginile, fundalurile și poziționarea lor pe pagină. Principiul de bază al CSS-ului este cascada, care permite suprascrierea și moștenirea stilurilor, facilitând astfel crearea unor design-uri coerente și flexibile pentru paginile web.
+CSS (Cascading Style Sheets): CSS is a styling language used to add appearance and aesthetics to web pages created with HTML. CSS (Cascading Style Sheets) is a styling language used to control the appearance and presentation of HTML elements on a web page. Using CSS, we can define the visual styles for different HTML elements, such as colors, fonts, borders, backgrounds, and their positioning on the page. The basic principle of CSS is waterfall, which allows for overwriting and inheriting styles, thus making it easier to create coherent and flexible designs for web pages.
 
-Stilizarea elementelor:
+Stylization of elements:
 
-CSS permite aplicarea stilurilor (cum ar fi culori, fonturi, dimensiuni, margini etc.) la elementele HTML. Stilurile sunt definite folosind selecții și declarații. De exemplu:
+CSS allows you to apply styles (such as colors, fonts, sizes, borders, etc.) to HTML elements. Styles are defined using selections and declarations. For example:
 
 p {
 
@@ -109,96 +110,96 @@ font-size: 16px;
 
 }
 
-Această regulă CSS va face ca toate paragrafele (\<p\>) să aibă textul albastru și dimensiunea fontului de 16 pixeli.
+This CSS rule will make all paragraphs (\<p\>) have blue text and a font size of 16 pixels.
 
-Selecții:
+Selections:
 
-Selecțiile CSS sunt utilizate pentru a specifica la ce elemente HTML se aplică un anumit set de stiluri. Acestea pot fi selecții de tip, clasă, ID sau alte atribute. De exemplu:
+CSS selections are used to specify which HTML elements a particular set of styles apply to. These can be selections of type, class, ID, or other attributes. For example:
 
-p - selectează toate elementele \<p\> (paragrafe).
+p - selects all items \<p\> (paragraphs).
 
-.clasa - selectează toate elementele care au clasa specificată în atributul class.
+.class - selects all elements that have the class specified in the class attribute.
 
-\#id - selectează elementul cu ID-ul specificat în atributul id.
+\#id - Selects the item with the ID specified in the id attribute.
 
-Cascadarea și moștenirea:
+Cascade and Legacy:
 
-CSS-ul este numit "Cascading Style Sheets" deoarece stilurile pot fi aplicate într-o ierarhie, iar conflictele sunt rezolvate prin reguli de moștenire și prioritizare. De exemplu, un stil definit la nivel global poate fi suprascris de unul specific unei clase sau unui ID.
+CSS is called "Cascading Style Sheets" because styles can be applied in a hierarchy, and conflicts are resolved through inheritance and prioritization rules. For example, a globally defined style may be overridden by a class or ID-specific style.
 
-Unități de măsură:
+Units of measurement:
 
-CSS oferă o varietate de unități de măsură pentru dimensiuni și distanțe, cum ar fi pixeli, procente, em-uri etc. Acestea permit scalabilitate și flexibilitate în designul paginilor web.
+CSS provides a variety of units of measurement for dimensions and distances, such as pixels, percentages, ems, etc. They allow for scalability and flexibility in web page design.
 
 Media Queries:
 
-CSS permite definirea unor reguli specifice pentru diferite tipuri de dispozitive sau dimensiuni de ecran folosind media queries. Acestea permit adaptarea aspectului paginii web în funcție de caracteristicile dispozitivului pe care este afișată.
+CSS allows defining specific rules for different device types or screen sizes using media queries. They allow the appearance of the web page to be adapted according to the characteristics of the device on which it is displayed.
 
-Compatibilitate cu browserele:
+Browser compatibility:
 
-Similar cu HTML-ul, CSS-ul este un standard recunoscut și acceptat de majoritatea browserelelor moderne. Este important să se scrie cod CSS într-un mod care să fie compatibil cu diferitele versiuni de browsere pentru a asigura o afișare corectă și uniformă a paginilor web.
+Similar to HTML, CSS is a standard that is recognized and supported by most modern browsers. It is important to write CSS code in a way that is compatible with different browser versions to ensure that web pages are displayed correctly and consistently.
 
-PHP (Hypertext Preprocessor): PHP este un limbaj de programare server-side utilizat pentru dezvoltarea aplicațiilor web dinamice și interacțiunea cu bazele de date. PHP permite generarea de conținut dinamic în paginile web, procesarea datelor introduse de utilizatori prin formulare, gestionarea sesiunilor și multe altele. Oferind o integrare strânsă cu HTML-ul, PHP permite crearea unor pagini web personalizate și interactive, adaptate nevoilor specifice ale utilizatorilor.
+PHP (Hypertext Preprocessor): PHP is a server-side programming language used for developing dynamic web applications and interacting with databases. PHP allows the generation of dynamic content in web pages, the processing of data entered by users through forms, session management and much more. Offering tight integration with HTML, PHP allows the creation of personalized and interactive web pages tailored to the specific needs of users.
 
 Server-Side Scripting:
 
-PHP este un limbaj de programare server-side, ceea ce înseamnă că codul este executat pe server și rezultatele sunt trimise către browserul utilizatorului. Acest lucru permite generarea dinamică a conținutului web în funcție de diverse condiții și date.
+PHP is a server-side programming language, which means that the code is executed on the server and the results are sent to the user's browser. This allows the dynamic generation of web content according to various conditions and data.
 
-Interacțiunea cu Bazele de Date:
+Interaction with Databases:
 
-PHP este adesea utilizat pentru a interacționa cu baze de date, permițând stocarea și manipularea datelor. Prin intermediul funcțiilor native sau a unor biblioteci precum MySQLi sau PDO, PHP poate executa interogări către bazele de date și poate manipula datele returnate.
+PHP is often used to interact with databases, allowing data to be stored and manipulated. Through native functions or libraries such as MySQLi or PDO, PHP can execute queries to databases and manipulate the data returned.
 
-Integrare cu HTML:
+HTML Integration:
 
-Codul PHP este încorporat în documentele HTML folosind delimitatoare speciale, de obicei \<?php și ?\>. Acest lucru permite dezvoltatorilor să creeze pagini web dinamice, în care conținutul este generat în funcție de variabile, condiții și alte logici de programare.
+PHP code is embedded in HTML documents using special delimiters, usually \<?php and ?\>. This allows developers to create dynamic web pages, where content is generated based on variables, conditions, and other programming logic.
 
-Variabile și Structuri de Control:
+Variables and Control Structures:
 
-PHP suportă variabile și structuri de control similare altor limbaje de programare, cum ar fi if-else, for, while etc. Acestea permit dezvoltatorilor să controleze fluxul programului și să efectueze operații în funcție de condiții.
+PHP supports variables and control structures similar to other programming languages, such as if-else, for, while, etc. They allow developers to control the flow of the program and perform operations according to conditions.
 
-Funcții și Biblioteci:
+Features and Libraries:
 
-PHP include o gamă largă de funcții și biblioteci încorporate, care facilitează sarcini comune, cum ar fi manipularea șirurilor de caractere, lucrul cu fișiere, trimiterea de e-mailuri etc. De asemenea, este posibilă încorporarea și utilizarea de biblioteci externe pentru funcționalități extinse.
+PHP includes a wide range of built-in features and libraries that facilitate common tasks such as manipulating strings, working with files, sending emails, etc. It is also possible to embed and use external libraries for extensive functionality.
 
-Gestionarea Sesiunilor și a Cookie-urilor:
+Session and Cookie Management:
 
-PHP oferă suport pentru gestionarea sesiunilor și a cookie-urilor, permițând dezvoltatorilor să mențină starea utilizatorilor între diferite cereri HTTP și să personalizeze experiența utilizatorului în funcție de acțiunile acestuia.
+PHP provides support for session and cookie management, allowing developers to maintain user status between different HTTP requests and customize the user experience according to their actions.
 
-Securitate:
+Security:
 
-PHP include funcționalități pentru a ajuta la securizarea aplicațiilor web, cum ar fi filtrarea datelor de intrare pentru a preveni injecțiile SQL sau Cross-Site Scripting (XSS), și oferă funcții pentru criptare și gestionarea parolelor.
+PHP includes functionality to help secure web applications, such as filtering input data to prevent SQL injections or Cross-Site Scripting (XSS), and provides features for encryption and password management.
 
-Aceste limbaje și tehnologii lucrează împreună pentru a crea un site web complet și funcțional, oferind o experiență plăcută și eficientă utilizatorilor. Prin combinarea puterii lor, putem dezvolta aplicații web complexe și atractive, satisfăcând nevoile și așteptările din ce în ce mai ridicate ale utilizatorilor online.
+These languages and technologies work together to create a complete and functional website, providing a pleasant and efficient experience for users. By combining their power, we can develop complex and attractive web applications, meeting the increasingly high needs and expectations of online users.
 
-**3.Prezentarea proiectului**
+**3.Presentation of the project**
+![image](https://github.com/user-attachments/assets/c8691df7-1eb3-4867-902c-57bad8ce5659)
 
-Proiectul "Prăvălia cu Mobilă" este un site web dedicat comercializării de mobilier, care oferă o gamă largă de produse și servicii clienților săi. Iată o prezentare generală a funcționalităților și caracteristicilor principale ale site-ului:
+The "Furniture Shop" project is a website dedicated to the sale of furniture, which offers a wide range of products and services to its customers. Here's an overview of the site's main functionalities and features:
 
-Pagina Principală: Pagina principală include un header și un footer unde se regăsesc toate paginile site-ului, oferind navigare rapidă către paginile adiacente și paginile cu informații despre magazin. În corpul paginii principale sunt afișate patru poze care direcționează utilizatorii către paginile dedicate produselor specifice (mobilier dormitor, living, bucătărie și baie).
+Homepage: The homepage includes a header and a footer where all the pages of the site are found, providing quick navigation to adjacent pages and pages with information about the store. In the body of the main page, four photos are displayed that direct users to the pages dedicated to specific products (bedroom, living room, kitchen and bathroom furniture).
 
-![](media/5145315d7ee3cc3dc475f75116e6a05f.png)
 
-![](media/f0f3ebac271ac8d461e9df4ca2cda8be.png)
 
-Paginile dedicate produselor: Aceste pagini conțin câte un card pentru fiecare produs, care includ o imagine cu produsul respectiv, o scurtă descriere, preț și dimensiunile produsului. Informațiile sunt preluate din baza de date a site-ului, unde sunt stocate detalii despre fiecare produs.
+Product pages: These pages contain a card for each product, which includes an image of the product, a brief description, price, and dimensions of the product. The information is taken from the website's database, where details about each product are stored.
 
-![](media/15b8f2a5aea94caab545abdd8fbe559f.png)
 
-Paginile legate de contul de utilizator (Login și Sign up): Există două pagini pentru gestionarea contului de utilizator. Pe pagina de Sign up, utilizatorii pot completa șase câmpuri cu datele necesare pentru crearea unui cont. Aceste date sunt apoi trimise în baza de date, iar utilizatorii pot alege să se conecteze sau să se întoarcă la pagina principală. Pe pagina de Login, utilizatorii trebuie să introducă username-ul și parola. Procesul de login presupune interogarea bazei de date pentru verificarea datelor, iar în cazul în care acestea sunt corecte, se creează o sesiune în baza de date pentru utilizator.
 
-![image](https://github.com/user-attachments/assets/16e7bcfd-4b75-48c8-ad85-5975d168d466)
+Pages linked to the user account (Login and Sign up): There are two pages for managing the user account. On the Sign up page, users can fill in six fields with the data needed to create an account. This data is then sent to the database, and users can choose to log in or return to the homepage. On the Login page, users need to enter their username and password. The login process involves querying the database for data verification, and if they are correct, a session is created in the database for the user.
 
-**Crearea și gestionarea sesiunilor utilizatorilor**
+![image](https://github.com/user-attachments/assets/9554aeb8-a092-43b2-9060-27dbf7858bfc)
+![image](https://github.com/user-attachments/assets/d2789e1f-0fb4-475d-8044-cdc3fd9b1bff)
 
-Pentru a gestiona autentificarea utilizatorilor și pentru a le oferi o experiență personalizată în cadrul aplicației noastre, am implementat un sistem robust de sesiuni.
 
-Identificarea sesiunilor
+**Create and manage user sessions**
 
-Pentru a identifica un utilizator și a-i gestiona sesiunea, folosim adresa IP a clientului. Aceasta este obținută prin funcția get_client_ip() și este apoi procesată pentru a elimina punctele și a obține un identificator unic al sesiunii. Această abordare ne permite să identificăm fiecare sesiune în mod unic și să gestionăm accesul utilizatorilor în aplicație.
+To manage user authentication and provide them with a personalized experience within our app, we have implemented a robust session system.
 
-**Crearea sesiunilor**
-![image](https://github.com/user-attachments/assets/0bda809f-c5c9-41c8-990d-b6b826af068d)
+Session identification
 
-Atunci când un utilizator se autentifică cu succes, o înregistrare nouă este inserată în tabela sessions a bazei de date. Această înregistrare conține ID-ul utilizatorului și identificatorul unic al sesiunii, indicând faptul că utilizatorul este autentificat și sesiunea este activă.
+To identify a user and manage their session, we use the client's IP address. This is achieved through the get_client_ip() function and is then processed to remove the points and obtain a unique session identifier. This approach allows us to uniquely identify each session and manage user access to the app.
+
+**Create sessions**
+
+When a user successfully logs in, a new record is inserted into the sessions table of the database. This record contains the user ID and the unique session identifier, indicating that the user is logged in and the session is active.
 
 if (pg_num_rows(\$result) \> 0) {
 
@@ -224,24 +225,24 @@ if (pg_num_rows(\$result) \> 0) {
 
 }
 
-1.  Verificarea rezultatelor: Linia if (pg_num_rows(\$result) \> 0) verifică dacă interogarea (query) către baza de date a returnat cel puțin o înregistrare. Aceasta este o verificare a succesului autentificării.
-2.  Generarea identificatorului de sesiune: Pentru a crea un identificator unic al sesiunii, se folosește funcția ipToConcatenatedString(get_client_ip()). Aceasta presupune că fiecare sesiune are un identificator format din adresa IP a utilizatorului și alte informații relevante, concatenându-le și generând astfel un identificator unic.
-3.  Obținerea ID-ului utilizatorului autentificat: Prin intermediul unei interogări către tabela "users" din baza de date, se caută ID-ul utilizatorului autentificat, bazându-se pe numele de utilizator (\$newUsername). Rezultatul este stocat în variabila \$userId.
-4.  Actualizarea tabelei de sesiuni: Se construiește o interogare SQL pentru a introduce o nouă înregistrare în tabela "sessions" a bazei de date. Această înregistrare conține identificatorul unic al sesiunii (\$sessionId), ID-ul utilizatorului (\$userId) și un indicator că sesiunea este activă (true).
+1.  Check the results: The if line (pg_num_rows(\$result) \> 0) checks whether the query to the database returned at least one record. This is a verification of authentication success.
+2.  Session identifier generation: To create a unique session identifier, the ipToConcatenatedString(get_client_ip()) function is used. This assumes that each session has an identifier consisting of the user's IP address and other relevant information, concatenating them and thus generating a unique identifier.
+3.  Obtaining the authenticated user ID: By means of a query to the "users" table in the database, the authenticated user ID is searched, based on the username (\$newUsername). The result is stored in variable \$userId.
+4.  Session Table Update: Construct a SQL query to insert a new record into the "sessions" table of the database. This record contains the unique session identifier (\$sessionId), the user ID (\$userId), and an indicator that the session is active (true).
 
-**Gestionarea sesiunilor**
+**Session management**
 
-Sesiunile utilizatorilor sunt gestionate în mod corespunzător pentru a asigura securitatea și confidențialitatea datelor lor. Aceasta include actualizarea stării sesiunilor, de exemplu, atunci când utilizatorii se autentifică sau se deconectează.
+User sessions are properly managed to ensure the security and privacy of their data. This includes updating the status of sessions, for example, when users sign in or sign out.
 
-Prin implementarea acestui sistem de sesiuni, asigurăm o gestionare eficientă și sigură a autentificării utilizatorilor în aplicația noastră, garantând în același timp confidențialitatea și securitatea datelor lor.
+By implementing this session system, we ensure efficient and secure management of user authentication in our application, while guaranteeing their privacy and security.
 
-Aceste sesiuni contribuie la menținerea utilizatorului conectat în cadrul aplicației tale. Atunci când un utilizator se autentifică cu succes, o nouă înregistrare este adăugată în tabela de sesiuni a bazei de date, indicând faptul că utilizatorul este autentificat și că sesiunea este activă
+These sessions help keep the user signed in to your app. When a user successfully logs in, a new record is added to the database session table, indicating that the user is logged in and that the session is active
 
-Aceasta permite aplicației să țină evidența utilizatorilor autentificați și să le ofere acces continuu la funcționalitățile sistemului fără a fi necesară reautentificarea la fiecare accesare.
+This allows the application to keep track of authenticated users and give them continuous access to system functionalities without the need to re-authenticate each time they access.
 
-Pentru a oferi utilizatorului posibilitatea de a se deloga în mod controlat, am implementat un buton dedicat de "logout". Atunci când utilizatorul dorește să se delogheze, acțiunea asociată butonului de logout va declanșa o solicitare către server pentru a șterge sesiunea corespunzătoare din baza de date.
+In order to give the user the possibility to log out in a controlled way, we have implemented a dedicated "logout" button. When the user wants to log out, the action associated with the logout button will trigger a request to the server to delete the corresponding session from the database.
 
-Acest lucru se realizează printr-o altă interogare SQL care șterge înregistrarea corespunzătoare din tabela de sesiuni bazată pe identificatorul unic al sesiunii.
+This is accomplished through another SQL query that deletes the corresponding record from the session table based on the session's unique identifier.
 
 \<?php
 
@@ -257,27 +258,28 @@ exit();
 
 ?\>
 
-![image](https://github.com/user-attachments/assets/c1187e2c-cba1-4093-944b-28b865326a6f)
+![image](https://github.com/user-attachments/assets/67c07cfb-fc37-4f29-b808-61633b0410b5)
 
 
-Baza de date: Schema bazei de date include trei tabele: user, products și sessions. Tabela user conține informații despre utilizatori, tabela products stochează informații despre fiecare produs, iar tabela sessions gestionează sesiunile de utilizator.
+Database: The database schema includes three tables: user, products, and sessions. The user table contains information about users, the products table stores information about each product, and the sessions table manages user sessions.
 
-![image](https://github.com/user-attachments/assets/40f5dfdf-899e-4305-acb5-fc974f4eca55)
-
-
+![image](https://github.com/user-attachments/assets/64d4577d-1e56-4e77-87c9-5f429850cbbc)
 
 
-Conexiunea între site și server este crucială pentru funcționarea corectă a aplicației mele. În acest caz, site-ul meu este hostat pe Vercel și baza de date este pe Supabase.
+![image](https://github.com/user-attachments/assets/71387d45-93cb-4cd8-8c37-edda026e5e41)
 
-**Definirea conexiunii la baza de date:**
+
+The connection between the site and the server is crucial for the proper functioning of my application. In this case, my site is hosted on Vercel and the database is on Supabase.
+
+**Defining the database connection:**
 
 **\$dbconn = pg_connect("host=... port=... dbname=... user=... password=...")**
 
 **or die('Could not connect: ' . pg_last_error());**
 
-Linia de cod stabilește o conexiune la baza de date folosind PostgreSQL. pg_connect este o funcție PHP care se conectează la un server PostgreSQL. Parametrii din interiorul funcției sunt host, port, db name, user, password.
+The line of code establishes a connection to the database using PostgreSQL. pg_connect is a PHP function that connects to a PostgreSQL server. The parameters inside the function are host, port, db name, user, password.
 
-**Procesarea datelor trimise de utilizator pentru înregistrare (signup)**:
+**Processing of data submitted by the user for registration (signup):**
 
 if(isset(\$_POST['save']))
 
@@ -321,96 +323,97 @@ pg_close(\$dbconn);
 
 }
 
-1.  Verificăm dacă s-au trimis datele pentru înregistrare (isset(\$_POST['save'])).
-2.  Dacă sunt date trimise, le preluăm din formular (username, password, email, telefon, prenume, nume).
-3.  Construim o interogare SQL (\$sql_query) pentru a insera aceste date în baza de date.
-4.  Folosim funcția pg_query pentru a executa interogarea pe conexiunea la baza de date (\$dbconn).
-5.  Verificăm rezultatul executării interogării:
-6.  Dacă este un succes (\$result), includem un fișier HTML pentru a afișa un mesaj de succes sau un popup de înregistrare.
-7.  Dacă apare o eroare, o afișăm
+1.  We check if the data has been submitted for registration (isset(\$_POST['save'])).
+2.  If there is data sent, we take it from the form (username, password, email, phone, surname, surname).
+3.  We construct a SQL query (\$sql_query) to insert this data into the database.
+4.  We use the pg_query function to execute the query on the database connection (\$dbconn).
+5.  We check the result of the query execution:
+6.  If it's a success (\$result), we include an HTML file to display a success message or registration popup.
+7.  If an error occurs, we display it
 
     (echo "Error: " . pg_last_error(\$dbconn)).
 
 **Login**
 
-Pentru a asigura securitatea și integritatea datelor, am implementat următoarele măsuri de securitate în cadrul codului meu:
+To ensure data security and integrity, I have implemented the following security measures within my code:
 
-Utilizarea interogărilor pregătite: Pentru a preveni injecția SQL și pentru a asigura că datele introduse de utilizatori sunt tratate în mod corespunzător, am utilizat interogări pregătite. Acestea permit separarea datelor de intrare de comanda SQL și furnizarea parametrilor în mod sigur.Fără utilizarea interogărilor pregătite, datele introduse de utilizatori, cum ar fi numele de utilizator și parola, ar fi fost concatenate direct în interogările SQL. Aceasta ar fi expus aplicația la atacuri de injecție SQL.
+Use of prepared queries: To prevent SQL injection and to ensure that data entered by users is handled properly, we used prepared queries. They allow the input data to be separated from the SQL command and the parameters to be provided securely. Without the use of prepared queries, data entered by users, such as username and password, would have been concatenated directly into SQL queries. This would have exposed the application to SQL injection attacks.
 
-Un atacator ar fi putut introduce date special construite în câmpurile de autentificare pentru a modifica comportamentul interogării SQL și pentru a obține acces neautorizat la datele din baza de date. În absența interogărilor pregătite, datele introduse de utilizatori ar fi fost tratate ca parte a comenzilor SQL, fără nicio verificare sau prelucrare specială. Aceasta ar fi făcut aplicația vulnerabilă la injecția SQL, care ar fi putut fi exploatată pentru a compromite baza de date și pentru a obține acces neautorizat la datele utilizatorilor.
+An attacker could have entered specially crafted data into the authentication fields to alter the behavior of the SQL query and gain unauthorized access to the data in the database. In the absence of prepared queries, the data entered by users would have been treated as part of SQL commands, without any special verification or processing. This would have made the application vulnerable to SQL injection, which could have been exploited to compromise the database and gain unauthorized access to user data.
 
-În cadrul dezvoltării aplicației mele, am efectuat o serie de teste pentru a evalua securitatea și robustețea acesteia. Unul dintre aspectele cheie pe care le-am investigat a fost vulnerabilitatea la atacuri de injecție SQL, o problemă comună care poate expune datele sensibile și poate afecta integritatea aplicației noastre.
+As part of the development of my app, I conducted a series of tests to assess its security and robustness. One of the key aspects we investigated was the vulnerability to SQL injection attacks, a common issue that can expose sensitive data and affect the integrity of our application.
 
-Pentru a testa această vulnerabilitate, am simulat un scenariu de injecție SQL în care am introdus manual comanda ' OR '1'='1' -- în câmpurile de autentificare (username și parolă) ale formularului de conectare.
+To test this vulnerability, we simulated a SQL injection scenario in which we manually entered the command ' OR '1'='1' -- in the authentication fields (username and password) of the login form.
 
 SELECT \* FROM users WHERE username='\$username' AND password='' OR '1'='1' --'
 
-În această situație, clauza OR '1'='1' va fi întotdeauna adevărată, ignorând parola și permițând accesul neautorizat la conturi de utilizator.
+In this situation, the OR clause '1'='1' will always be true, ignoring the password and allowing unauthorized access to user accounts.
 
-Această comandă este cunoscută pentru a forța întotdeauna condiția să fie adevărată, permițând accesul neautorizat la datele din baza de date.
+This command is known to always force the condition to be true, allowing unauthorized access to data in the database.
 
-Rezultatul acestui test a fost că am putut accesa cu succes un cont din baza de date, fără a fi necesară introducerea unei parole valide. Acest lucru demonstrează că aplicația noastră a fost vulnerabilă la injecția SQL și că datele introduse de utilizator nu au fost corect izolate de comanda SQL.
+The result of this test was that I was able to successfully access an account in the database, without having to enter a valid password. This demonstrates that our application was vulnerable to SQL injection and that the data entered by the user was not correctly isolated from the SQL command.
 
-Prin implementarea acestor măsuri de securitate, mă asigur că aplicația mea este protejată împotriva atacurilor de injecție SQL și că datele utilizatorilor sunt tratate în mod sigur și corect.
+By implementing these security measures, I ensure that my application is protected against SQL injection attacks and that user data is handled securely and fairly.
 
-![image](https://github.com/user-attachments/assets/924d4bc6-43d1-4eaa-8e71-962f19b4db19)
-
-
-**Sistemul de Date Analitice Vercel:**
-
-Sistemul de date analitice oferit de Vercel este o componentă esențială pentru înțelegerea și optimizarea performanței site-ului meu web. Această platformă furnizează o gamă diversă de instrumente și metrici pentru a monitoriza și analiza comportamentul utilizatorilor, performanța paginilor și alte aspecte relevante pentru experiența utilizatorului.
-
-Principalele caracteristici ale sistemului de date analitice Vercel includ:
-
-Monitorizarea traficului: Vercel oferă informații detaliate despre traficul site-ului, inclusiv numărul de vizitatori, pagini vizitate, ședințe și alte aspecte relevante.
-
-![image](https://github.com/user-attachments/assets/49b71c2a-791e-4795-bc6d-b9f7cc408a97)
+![image](https://github.com/user-attachments/assets/23d792ce-3afb-419a-8996-194998ede415)
 
 
-Analiza performanței: Prin intermediul sistemului de date analitice, putem evalua performanța site-ului în timp real sau în perioade prestabilite. Acest lucru include metrici precum timpul de încărcare al paginilor, timpul de răspuns al serverului și altele.
+**Vercel Analytical Data System:**
 
-![image](https://github.com/user-attachments/assets/be39dcdc-8920-4aa3-8052-36bb49bec273)
+The analytics system offered by Vercel is an essential component for understanding and optimizing my website's performance. This platform provides a diverse range of tools and metrics to monitor and analyze user behavior, page performance, and other aspects relevant to the user experience.
+
+The main features of the Vercel analytical data system include:
+
+Traffic monitoring: Vercel provides detailed information about the site's traffic, including the number of visitors, pages visited, meetings, and other relevant aspects.
+
+![image](https://github.com/user-attachments/assets/31253861-2c7a-4ac8-9622-46650e7d4e99)
 
 
-Segmentarea utilizatorilor: Putem segmenta utilizatorii în funcție de diferite criterii, precum locația geografică, dispozitivul folosit sau alte atribute relevante. Această funcționalitate permite personalizarea și îmbunătățirea experienței utilizatorului în funcție de nevoile și preferințele acestora.
+Performance analysis: Through the analytical data system, we can evaluate the performance of the site in real time or in predetermined periods. This includes metrics such as page load time, server response time, and more.
 
-Integrare cu alte instrumente: Sistemul de date analitice Cercel poate fi integrat cu alte instrumente și platforme, precum Google Analytics, pentru a oferi o imagine completă și detaliată asupra performanței și comportamentului utilizatorilor.
+![image](https://github.com/user-attachments/assets/b69d6b1d-f5ee-4c84-a47d-7d3e5f944b69)
+
+
+User segmentation: We may segment users based on various criteria, such as geographic location, device used, or other relevant attributes. This functionality allows customizing and improving the user experience according to their needs and preferences.
+
+Integration with other tools: The Cercel analytics system can be integrated with other tools and platforms, such as Google Analytics, to provide a complete and detailed view of user performance and behavior.
 
 **Speed Insights:**
 
-Categoria Speed Insights este o măsură a performanței site-ului în ceea ce privește viteza de încărcare și timpul de răspuns. Această metrică este esențială pentru a asigura o experiență plăcută și eficientă utilizatorilor și pentru a optimiza clasamentul site-ului în motoarele de căutare.
+The Speed Insights category is a measure of your site's performance in terms of loading speed and response time. This metric is essential for ensuring a pleasant and efficient user experience and optimizing your site's search engine rankings.
 
-Principalele aspecte ale categoriei Speed Insights includ:
+Key aspects of the Speed Insights category include:
 
-Viteza de încărcare a paginilor:
+Page loading speed:
 
-Speed Insights evaluează timpul necesar pentru încărcarea completă a paginilor site-ului meu web. Viteza optimă de încărcare este crucială pentru menținerea angajamentului utilizatorilor și reducerea ratei de abandon a paginilor.
+Speed Insights evaluates the time it takes for my website's pages to fully load. Optimal loading speed is crucial for maintaining user engagement and reducing page abandonment rates.
 
-![image](https://github.com/user-attachments/assets/2293684a-7fb7-4469-b4ea-050bd69f213a)
-
-
-Optimizarea elementelor media: Analiza Speed Insights include evaluarea și recomandări pentru optimizarea imaginilor, videoclipurilor și altor elemente media pentru a reduce timpul de încărcare al paginilor.
-
-![image](https://github.com/user-attachments/assets/b7f9f1eb-1d82-497e-8fef-6b90a099c1f5)
+![image](https://github.com/user-attachments/assets/73348d99-f5aa-49a2-915b-92bd158ad3fe)
 
 
-Compatibilitate cu dispozitivele mobile: Evaluarea performanței site-ului pe dispozitive mobile este un aspect crucial al categoriei Speed Insights, având în vedere creșterea utilizării mobile în rândul utilizatorilor. Un site web optimizat pentru dispozitivele mobile are un timp de încărcare rapid și o experiență fluidă de navigare.
+Media optimization: Speed Insights analysis includes evaluation and recommendations for optimizing images, videos, and other media to reduce page load time.
 
-Caching și comprimare: Categoria Cache oferă sfaturi și indicații pentru implementarea eficientă a tehnologiilor de caching și comprimare a fișierelor pentru a accelera încărcarea paginilor și a reduce timpul de răspuns al serverului.
-
-![image](https://github.com/user-attachments/assets/85880327-daf4-48e6-ab9d-a9be69e9f154)
+![image](https://github.com/user-attachments/assets/9d2795cb-c384-4bf0-a0c0-46b0e727ff14)
 
 
-![image](https://github.com/user-attachments/assets/a834884b-aaca-4fb7-b032-ea030f0406c0)
+Mobile Compatibility: Evaluating website performance on mobile devices is a crucial aspect of the Speed Insights category, given the increase in mobile usage among users. A mobile-friendly website has a fast loading time and a smooth browsing experience.
 
-Funcții de securitate anti-DDoS
+Caching and compression: The Cache category provides tips and guidance for effectively implementing file caching and compression technologies to speed up page loading and reduce server response time.
 
-Attack Challenge Mode reprezintă o modalitate de a oferi mai mult control în cazul atacurilor DDoS. Atunci când este activat, toți vizitatorii site-ului vor vedea un test de verificare înainte de a li se permite accesul. Firewall-ul automat al Vercel oprește automat atacurile DDoS a asigura că tot traficul către site este legitim.
-
-![image](https://github.com/user-attachments/assets/8c9141a8-865b-427f-af8b-150c1c567263)
+![image](https://github.com/user-attachments/assets/78761fa9-3aea-44dc-8434-96fdd9f75fdf)
 
 
-**Bibliografie**
+![image](https://github.com/user-attachments/assets/0fab53f5-aa83-47af-abc9-0685e533f993)
+
+
+Anti-DDoS security features
+
+Attack Challenge Mode is a way to give more control in the event of DDoS attacks. When enabled, all site visitors will see a verification test before they are allowed access. Vercel's automatic firewall automatically stops DDoS attacks to ensure that all traffic to the site is legitimate.
+
+![image](https://github.com/user-attachments/assets/2110315b-23e3-45f1-84e8-913373506d28)
+
+
+**Bibliography**
 
 [**https://www.php.net/docs.php**](https://www.php.net/docs.php)
 
