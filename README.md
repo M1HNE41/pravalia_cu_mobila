@@ -17,12 +17,12 @@ MAY, 2024
 
 **CONTAINED**
 
-1.  **Choosing the theme**[  ](#)**3**
-2.  **Applications and software used 4**
-    1.  **Supabase, Vercel is Github 4**
-    2.  **HTML, CSS and PHP 5**
-3.  **Presentation of the project 9**
-4.  **Bibliography 25**
+1.  **Choosing the theme**
+2.  **Applications and software used**
+    1.  **Supabase, Vercel is Github**
+    2.  **HTML, CSS and PHP**
+3.  **Presentation of the project**
+4.  **Bibliography**
 
 # 
 
